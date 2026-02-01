@@ -193,3 +193,62 @@
 		</div>
 	</div>
 </section>
+<section id="contact">
+	<div
+		class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 lg:gap-24 xl:flex-row"
+	>
+		<div class="flex flex-col justify-between gap-4">
+			<div class="space-y-4">
+				<h2 class="text-2xl leading-[1.1] lg:text-4xl">Get in Touch</h2>
+				<div>hi@zackwebster.com</div>
+			</div>
+			<div class="space-y-4">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis purus purus, et
+					malesuada nunc vestibulum eget.
+				</p>
+				<div class="h-px bg-white opacity-10"></div>
+				<div class="flex flex-col gap-4 lg:flex-row">
+					<div class="flex-1">
+						<div class="mb-1 text-xl">Start the Conversation</div>
+						<p class="text-md opacity-50">
+							Your message is the first step. I’ll get back quickly to explore possibilities and
+							next steps.
+						</p>
+					</div>
+					<div class="flex-1">
+						<div class="mb-1 text-xl">Build Something Great</div>
+						<p class="text-md opacity-50">
+							Together, we’ll shape ideas, solve problems, and make great things happen.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w-full max-w-2xl bg-white p-8 text-black">
+			<h3>Have a Project in Mind?</h3>
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut eros malesuada,
+				placerat ipsum a, vestibulum magna. Etiam ligula dui, placerat mattis sem sed, auctor
+				ullamcorper mauris. Quisque vel semper risus. Curabitur maximus sapien sit amet volutpat
+				lobortis. Vestibulum convallis mauris nec nibh aliquam, vitae volutpat sem lobortis. Nunc ac
+				sapien facilisis, egestas urna vel, dignissim nisi. Donec blandit lorem non est porta, sed
+				mattis augue vehicula. Etiam volutpat, arcu in rutrum luctus, purus ante pharetra leo, et
+				euismod enim velit elementum ligula. Nulla a felis ut justo cursus efficitur at sit amet
+				leo. Aliquam aliquet purus id tempor vehicula. Cras dictum commodo nulla, a dictum ex mollis
+				et. Pellentesque commodo laoreet porta. Quisque luctus, nunc sit amet mattis molestie, purus
+				orci finibus ipsum, at pretium enim ex at lorem. Nullam sit amet condimentum arcu. Sed sit
+				amet ante velit. Duis et blandit ex. Donec aliquet pellentesque velit in luctus. Donec
+				pellentesque non erat eu cursus. Donec at tempor leo. Etiam volutpat non dolor in semper.
+				Nulla et tortor nunc. Nunc et rhoncus orci, nec porta urna. Morbi leo arcu, sodales sed
+				turpis quis, accumsan bibendum tellus. Nulla eget tellus vestibulum, consectetur magna id,
+				imperdiet nisl. Etiam pellentesque efficitur mi id mollis. Vestibulum ante ipsum primis in
+				faucibus orci luctus et ultrices posuere cubilia curae; Nunc varius, dolor nec commodo
+				volutpat, urna augue efficitur sapien, sed fermentum metus eros et sem. Praesent ac quam a
+				dolor ullamcorper convallis ac vitae nisi. Donec sodales purus ac leo luctus euismod. Nam
+				lacinia aliquam ligula. Maecenas pellentesque dolor a vestibulum pulvinar. In non lectus sed
+				lectus pharetra ultrices fermentum vulputate nunc.
+			</div>
+		</div>
+	</div>
+</section>
