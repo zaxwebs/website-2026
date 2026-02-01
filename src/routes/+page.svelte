@@ -24,7 +24,41 @@
 		alt="Portrait of Zack Webster"
 	/>
 	<div
-		style="border-radius: 50%"
-		class="absolute bottom-0 left-1/2 -z-10 block aspect-5/2 w-[100%] max-w-[1000px] -translate-x-1/2 translate-y-1/2 rounded-full bg-linear-to-r from-[#0F43D8] via-[#1AC6E5] to-[#179495] blur-[100px]"
+		aria-hidden="true"
+		class="pointer-events-none absolute bottom-0 left-1/2 -z-10 block aspect-[5/2] w-full max-w-[1000px]
+         -translate-x-1/2 translate-y-1/2 rounded-full
+         bg-linear-to-r from-[#0F43D8] via-[#1AC6E5] to-[#179495]
+         blur-[100px]"
 	></div>
+</section>
+<section id="about">
+	<div class="mx-auto max-w-[1400px] p-4 py-28">
+		<div class="flex flex-col items-center justify-center gap-4 text-center">
+			<h2 class="text-2xl leading-[1.1] md:text-3xl lg:text-5xl">A Holistic Product Partner</h2>
+			<p class="mt-0 max-w-3xl lg:mt-2">
+				I help teams and founders build digital products that are clear, cohesive, and built to
+				perform. Whether I'm contributing in a single area or guiding the full product lifecycle, my
+				work is always grounded in alignment and outcomes. I approach design, development, and
+				growth as interconnected parts of the same system, so every decision supports the bigger
+				picture.
+			</p>
+		</div>
+		<div class="mt-14 flex gap-4">
+			<div>
+				<h3 class="mb-2 text-xl">Design</h3>
+				<p>Interfaces that feel effortless, engage users, and increase conversions.</p>
+			</div>
+			<div>
+				<h3 class="mb-2 text-xl">Development</h3>
+				<p>Products that run fast, stay reliable, and scale effortlessly as your business grows.</p>
+			</div>
+			<div>
+				<h3 class="mb-2 text-xl">Growth</h3>
+				<p>
+					Attract the right audience, boost engagement, and turn traffic into steady leads and
+					revenue.
+				</p>
+			</div>
+		</div>
+	</div>
 </section>
