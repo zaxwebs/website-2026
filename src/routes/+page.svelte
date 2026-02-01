@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
+	import LogoBase from '$lib/components/ui/LogoBase.svelte';
 	import { Marquee } from '$lib/components/ui/marquee/index.js';
 </script>
 
@@ -47,7 +48,7 @@
 		<div class="mt-16 flex flex-col gap-4 md:flex-row">
 			<div class="relative flex-1 rounded-md bg-background p-4">
 				<div class="mb-3 flex items-center gap-2">
-					<img class="w-4" src="images/logo-white.svg" alt="symbol" aria-hidden="true" />
+					<LogoBase class="w-4 text-orange-500" />
 					<h3 class=" text-xl">Design</h3>
 				</div>
 				<p>Interfaces that feel effortless, engage users, and increase conversions.</p>
@@ -59,7 +60,7 @@
 			</div>
 			<div class="relative flex-1 rounded-md bg-background p-4">
 				<div class="mb-3 flex items-center gap-2">
-					<img class="w-4" src="images/logo-white.svg" alt="symbol" aria-hidden="true" />
+					<LogoBase class="w-4 text-pink-500" />
 					<h3 class=" text-xl">Development</h3>
 				</div>
 				<p>Products that run fast, stay reliable, and scale effortlessly as your business grows.</p>
@@ -71,7 +72,7 @@
 			</div>
 			<div class="relative flex-1 rounded-md bg-background p-4">
 				<div class="mb-3 flex items-center gap-2">
-					<img class="w-4" src="images/logo-white.svg" alt="symbol" aria-hidden="true" />
+					<LogoBase class="w-4 text-purple-500" />
 					<h3 class=" text-xl">Growth</h3>
 				</div>
 				<p>
