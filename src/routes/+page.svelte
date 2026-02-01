@@ -43,33 +43,42 @@
 				picture.
 			</p>
 		</div>
-		<div class="mt-14 flex flex-col gap-4 md:flex-row">
-			<div class="flex-1 rounded-md bg-background p-4">
-				<h3 class="mb-2 text-xl">Design</h3>
+		<div class="mt-16 flex flex-col gap-4 md:flex-row">
+			<div class="relative flex-1 rounded-md bg-background p-4">
+				<div class="mb-2 flex items-center gap-2">
+					<img class="w-4" src="images/logo-white.svg" alt="symbol" />
+					<h3 class=" text-xl">Design</h3>
+				</div>
 				<p>Interfaces that feel effortless, engage users, and increase conversions.</p>
 				<img
-					class="mx-auto mt-2 -mb-4 w-[80%]"
+					class="mx-auto mt-4 -mb-4 w-[80%]"
 					src="images/writing.avif"
 					alt="Artistic representation of Zack designing"
 				/>
 			</div>
-			<div class="flex-1 rounded-md bg-background p-4">
-				<h3 class="mb-2 text-xl">Development</h3>
+			<div class="relative flex-1 rounded-md bg-background p-4">
+				<div class="mb-2 flex items-center gap-2">
+					<img class="w-4" src="images/logo-white.svg" alt="symbol" />
+					<h3 class=" text-xl">Development</h3>
+				</div>
 				<p>Products that run fast, stay reliable, and scale effortlessly as your business grows.</p>
 				<img
-					class="mx-auto mt-2 -mb-4 w-[80%]"
+					class="mx-auto mt-4 -mb-4 w-[80%]"
 					src="images/typing.avif"
 					alt="Artistic representation of Zack coding"
 				/>
 			</div>
-			<div class="flex-1 rounded-md bg-background p-4">
-				<h3 class="mb-2 text-xl">Growth</h3>
+			<div class="relative flex-1 rounded-md bg-background p-4">
+				<div class="mb-2 flex items-center gap-2">
+					<img class="w-4" src="images/logo-white.svg" alt="symbol" />
+					<h3 class=" text-xl">Growth</h3>
+				</div>
 				<p>
 					Attract the right audience, boost engagement, and turn traffic into steady leads and
 					revenue.
 				</p>
 				<img
-					class="mx-auto mt-2 -mb-4 w-[80%]"
+					class="mx-auto mt-4 -mb-4 w-[80%]"
 					src="images/reading.avif"
 					alt="Artistic representation of Zack reading"
 				/>
