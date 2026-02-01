@@ -46,7 +46,7 @@
 			</p>
 		</div>
 		<div class="mt-16 flex flex-col gap-4 md:flex-row">
-			<div class="relative flex-1 rounded-md bg-background p-4">
+			<div class="relative isolate flex-1 overflow-hidden rounded-md bg-background p-4">
 				<div class="mb-3 flex items-center gap-2">
 					<LogoBase class="w-4 text-orange-500" />
 					<h3 class=" text-xl">Design</h3>
@@ -57,8 +57,15 @@
 					src="images/writing.avif"
 					alt="Artistic representation of Zack designing"
 				/>
+				<div
+					aria-hidden="true"
+					class="pointer-events-none absolute bottom-0 left-1/2 -z-10 aspect-[6/2] w-[110%]
+         max-w-[1000px] -translate-x-1/2 translate-y-1/2
+         rounded-[50%] bg-linear-to-r from-[#FE5F28]
+         to-[#BE08D0] blur-[20px]"
+				></div>
 			</div>
-			<div class="relative flex-1 rounded-md bg-background p-4">
+			<div class="relative isolate flex-1 overflow-hidden rounded-md bg-background p-4">
 				<div class="mb-3 flex items-center gap-2">
 					<LogoBase class="w-4 text-pink-500" />
 					<h3 class=" text-xl">Development</h3>
@@ -70,7 +77,7 @@
 					alt="Artistic representation of Zack coding"
 				/>
 			</div>
-			<div class="relative flex-1 rounded-md bg-background p-4">
+			<div class="relative isolate flex-1 overflow-hidden rounded-md bg-background p-4">
 				<div class="mb-3 flex items-center gap-2">
 					<LogoBase class="w-4 text-purple-500" />
 					<h3 class=" text-xl">Growth</h3>
