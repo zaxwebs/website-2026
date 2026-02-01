@@ -4,6 +4,10 @@
 	import { Marquee } from '$lib/components/ui/marquee/index.js';
 </script>
 
+<svelte:head>
+	<title>Zack Webster</title>
+</svelte:head>
+
 <section id="hero" class="relative flex min-h-screen flex-col justify-between overflow-hidden">
 	<div
 		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 pt-32 text-center md:gap-5 lg:pt-30"
