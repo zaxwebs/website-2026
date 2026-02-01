@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
+	import { Marquee } from '$lib/components/ui/marquee/index.js';
 </script>
 
 <section id="hero" class="relative flex min-h-screen flex-col justify-between overflow-hidden">
@@ -13,8 +14,8 @@
 			I partner with founders and teams to create digital products that are thoughtful, scalable,
 			and built to drive real results.
 		</p>
-		<div class="flex gap-2">
-			<Button variant="outline">Get in Touch</Button>
+		<div class="flex gap-3">
+			<Button variant="default">Get in Touch</Button>
 			<Button variant="outline">About</Button>
 		</div>
 	</div>
@@ -25,10 +26,10 @@
 	/>
 	<div
 		aria-hidden="true"
-		class="pointer-events-none absolute bottom-0 left-1/2 -z-10 block aspect-[5/2] w-full max-w-[1000px]
-         -translate-x-1/2 translate-y-1/2 rounded-full
-         bg-linear-to-r from-[#0F43D8] via-[#1AC6E5] to-[#179495]
-         blur-[100px]"
+		class="pointer-events-none absolute bottom-0 left-1/2 -z-10 aspect-[1/1] w-[90%] max-w-[1000px] -translate-x-1/2
+         translate-y-1/2 rounded-[50%] bg-linear-to-r
+         from-[#0F43D8] via-[#1AC6E5] to-[#179495] blur-[100px]
+         md:aspect-[4/2]"
 	></div>
 </section>
 <section id="about">
@@ -45,8 +46,8 @@
 		</div>
 		<div class="mt-16 flex flex-col gap-4 md:flex-row">
 			<div class="relative flex-1 rounded-md bg-background p-4">
-				<div class="mb-2 flex items-center gap-2">
-					<img class="w-4" src="images/logo-white.svg" alt="symbol" />
+				<div class="mb-3 flex items-center gap-2">
+					<img class="w-4" src="images/logo-white.svg" alt="symbol" aria-hidden="true" />
 					<h3 class=" text-xl">Design</h3>
 				</div>
 				<p>Interfaces that feel effortless, engage users, and increase conversions.</p>
@@ -57,8 +58,8 @@
 				/>
 			</div>
 			<div class="relative flex-1 rounded-md bg-background p-4">
-				<div class="mb-2 flex items-center gap-2">
-					<img class="w-4" src="images/logo-white.svg" alt="symbol" />
+				<div class="mb-3 flex items-center gap-2">
+					<img class="w-4" src="images/logo-white.svg" alt="symbol" aria-hidden="true" />
 					<h3 class=" text-xl">Development</h3>
 				</div>
 				<p>Products that run fast, stay reliable, and scale effortlessly as your business grows.</p>
@@ -69,8 +70,8 @@
 				/>
 			</div>
 			<div class="relative flex-1 rounded-md bg-background p-4">
-				<div class="mb-2 flex items-center gap-2">
-					<img class="w-4" src="images/logo-white.svg" alt="symbol" />
+				<div class="mb-3 flex items-center gap-2">
+					<img class="w-4" src="images/logo-white.svg" alt="symbol" aria-hidden="true" />
 					<h3 class=" text-xl">Growth</h3>
 				</div>
 				<p>
