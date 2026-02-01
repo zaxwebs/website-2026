@@ -86,7 +86,7 @@
 					</p>
 				</div>
 				<img
-					class="mx-auto mt-2 -mb-4 w-[80%] max-w-[350px]"
+					class="mx-auto mt-2 -mb-4 w-[80%] max-w-[300px]"
 					src="images/typing.avif"
 					alt="Artistic representation of Zack coding"
 				/>
@@ -106,7 +106,7 @@
 				</div>
 
 				<img
-					class="mx-auto mt-2 -mb-4 w-[80%] max-w-[350px]"
+					class="mx-auto mt-2 -mb-4 w-[80%] max-w-[300px]"
 					src="images/reading.avif"
 					alt="Artistic representation of Zack reading"
 				/>
