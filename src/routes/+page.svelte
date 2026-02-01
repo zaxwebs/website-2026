@@ -51,11 +51,11 @@
 		</div>
 		<div class="mt-16 flex flex-col gap-4 md:flex-row">
 			<div
-				class="relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+				class="group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
 			>
 				<div class="p-4">
 					<div class="mb-3 flex items-center gap-2">
-						<LogoBase class="w-4 text-orange-500" />
+						<LogoBase class="w-4 text-orange-500 group-hover:animate-spin" />
 						<h3 class=" text-xl">Design</h3>
 					</div>
 					<p>Interfaces that feel effortless, engage users, and increase conversions.</p>
@@ -74,11 +74,11 @@
 				></div>
 			</div>
 			<div
-				class="relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+				class="group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
 			>
 				<div class="p-4">
 					<div class="mb-3 flex items-center gap-2">
-						<LogoBase class="w-4 text-pink-500" />
+						<LogoBase class="w-4 text-pink-500 group-hover:animate-spin" />
 						<h3 class=" text-xl">Development</h3>
 					</div>
 					<p>
@@ -92,11 +92,11 @@
 				/>
 			</div>
 			<div
-				class="relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+				class="group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
 			>
 				<div class="p-4">
 					<div class="mb-3 flex items-center gap-2">
-						<LogoBase class="w-4 text-purple-500" />
+						<LogoBase class="w-4 text-purple-500 group-hover:animate-spin" />
 						<h3 class=" text-xl">Growth</h3>
 					</div>
 					<p>
@@ -110,6 +110,41 @@
 					src="images/reading.avif"
 					alt="Artistic representation of Zack reading"
 				/>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="testimonials">
+	<div class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 md:flex-row">
+		<h2 class="text-2xl leading-[1.1] lg:text-4xl">Featured Testimonials</h2>
+		<div class="flex max-w-2xl flex-col gap-4">
+			<div class="rounded-md bg-background p-4">
+				<div class="flex items-end gap-4">
+					<img class="w-20 rounded" src="/images/kelly-smith.avif" alt="Kelly Smith" />
+					<div>
+						<h3 class="mb-1">Kelly Smith</h3>
+						<p class="opacity-50">CEO of AG — Digital Initiatives at Starbucks</p>
+					</div>
+				</div>
+				<p class="mt-4">
+					Zack is a dedicated professional who consistently pushes to deliver strong results. He
+					brings genuine enthusiasm to his work and is highly recommended.
+				</p>
+			</div>
+			<div class="rounded-md bg-background p-4">
+				<div class="flex items-end gap-4">
+					<img class="w-20 rounded" src="/images/brian-canavan.avif" alt="Brian Canavan" />
+					<div>
+						<h3 class="mb-1">Brian Canavan</h3>
+						<p class="opacity-50">Streamer — 25 Million Views</p>
+					</div>
+				</div>
+				<p class="mt-4">
+					Zack quickly understood my goals and vision and translated them into a moodboard that set
+					the tone right away. The process was organized, smooth, and executed with care. My
+					community has responded incredibly positively to the final site, and I am thrilled with
+					how it turned out. I would happily recommend Webster to anyone needing a new website.
+				</p>
 			</div>
 		</div>
 	</div>
