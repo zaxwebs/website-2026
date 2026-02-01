@@ -50,14 +50,18 @@
 			</p>
 		</div>
 		<div class="mt-16 flex flex-col gap-4 md:flex-row">
-			<div class="relative isolate flex-1 overflow-hidden rounded-md bg-background p-4">
-				<div class="mb-3 flex items-center gap-2">
-					<LogoBase class="w-4 text-orange-500" />
-					<h3 class=" text-xl">Design</h3>
+			<div
+				class="relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+			>
+				<div class="p-4">
+					<div class="mb-3 flex items-center gap-2">
+						<LogoBase class="w-4 text-orange-500" />
+						<h3 class=" text-xl">Design</h3>
+					</div>
+					<p>Interfaces that feel effortless, engage users, and increase conversions.</p>
 				</div>
-				<p>Interfaces that feel effortless, engage users, and increase conversions.</p>
 				<img
-					class="mx-auto mt-4 -mb-4 w-[80%]"
+					class="mx-auto mt-2 -mb-4 w-[80%] max-w-[300px]"
 					src="images/writing.avif"
 					alt="Artistic representation of Zack designing"
 				/>
@@ -69,29 +73,40 @@
          to-[#BE08D0] blur-[20px]"
 				></div>
 			</div>
-			<div class="relative isolate flex-1 overflow-hidden rounded-md bg-background p-4">
-				<div class="mb-3 flex items-center gap-2">
-					<LogoBase class="w-4 text-pink-500" />
-					<h3 class=" text-xl">Development</h3>
+			<div
+				class="relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+			>
+				<div class="p-4">
+					<div class="mb-3 flex items-center gap-2">
+						<LogoBase class="w-4 text-pink-500" />
+						<h3 class=" text-xl">Development</h3>
+					</div>
+					<p>
+						Products that run fast, stay reliable, and scale effortlessly as your business grows.
+					</p>
 				</div>
-				<p>Products that run fast, stay reliable, and scale effortlessly as your business grows.</p>
 				<img
-					class="mx-auto mt-4 -mb-4 w-[80%]"
+					class="mx-auto mt-2 -mb-4 w-[80%] max-w-[350px]"
 					src="images/typing.avif"
 					alt="Artistic representation of Zack coding"
 				/>
 			</div>
-			<div class="relative isolate flex-1 overflow-hidden rounded-md bg-background p-4">
-				<div class="mb-3 flex items-center gap-2">
-					<LogoBase class="w-4 text-purple-500" />
-					<h3 class=" text-xl">Growth</h3>
+			<div
+				class="relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+			>
+				<div class="p-4">
+					<div class="mb-3 flex items-center gap-2">
+						<LogoBase class="w-4 text-purple-500" />
+						<h3 class=" text-xl">Growth</h3>
+					</div>
+					<p>
+						Attract the right audience, boost engagement, and turn traffic into steady leads and
+						revenue.
+					</p>
 				</div>
-				<p>
-					Attract the right audience, boost engagement, and turn traffic into steady leads and
-					revenue.
-				</p>
+
 				<img
-					class="mx-auto mt-4 -mb-4 w-[80%]"
+					class="mx-auto mt-2 -mb-4 w-[80%] max-w-[350px]"
 					src="images/reading.avif"
 					alt="Artistic representation of Zack reading"
 				/>
