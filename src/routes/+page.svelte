@@ -43,16 +43,16 @@
 				picture.
 			</p>
 		</div>
-		<div class="mt-14 flex gap-4">
-			<div>
+		<div class="mt-14 flex flex-col gap-4 md:flex-row">
+			<div class="bg-background p-4">
 				<h3 class="mb-2 text-xl">Design</h3>
 				<p>Interfaces that feel effortless, engage users, and increase conversions.</p>
 			</div>
-			<div>
+			<div class="bg-background p-4">
 				<h3 class="mb-2 text-xl">Development</h3>
 				<p>Products that run fast, stay reliable, and scale effortlessly as your business grows.</p>
 			</div>
-			<div>
+			<div class="bg-background p-4">
 				<h3 class="mb-2 text-xl">Growth</h3>
 				<p>
 					Attract the right audience, boost engagement, and turn traffic into steady leads and
