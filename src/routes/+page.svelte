@@ -210,16 +210,16 @@
 				<div class="h-px bg-white opacity-10"></div>
 				<div class="flex flex-col gap-4 lg:flex-row">
 					<div class="flex-1">
-						<div class="mb-1 text-xl">Start the Conversation</div>
+						<div class="mb-1">Start the Conversation</div>
 						<p class="text-md opacity-50">
 							Your message is the first step. I’ll get back quickly to explore possibilities and
 							next steps.
 						</p>
 					</div>
 					<div class="flex-1">
-						<div class="mb-1 text-xl">Build Something Great</div>
+						<div class="mb-1">Build Something Great</div>
 						<p class="text-md opacity-50">
-							Together, we’ll shape ideas, solve problems, and make great things happen.
+							Together, we'll shape ideas, solve problems, and make great things happen.
 						</p>
 					</div>
 				</div>
