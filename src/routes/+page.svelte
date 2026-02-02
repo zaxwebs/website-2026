@@ -30,7 +30,7 @@
 		</div>
 	</div>
 	<img
-		class="aspec-square mx-auto max-h-[500px]"
+		class="mx-auto aspect-square max-h-[500px]"
 		src="/images/portrait.avif"
 		alt="Portrait of Zack Webster"
 	/>
