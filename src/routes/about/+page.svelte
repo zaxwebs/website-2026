@@ -45,7 +45,7 @@
 	</Marquee>
 </section>
 <section>
-	<div class="mx-auto max-w-[1400px] p-4 py-28 text-2xl">
+	<div class="mx-auto max-w-[1400px] p-4 py-28 text-xl md:text-3xl">
 		I bring over eight years of experience delivering digital solutions for clients worldwide. I've
 		worked with startups, established businesses, and multinational organizations across diverse
 		industries. With experience spanning multiple roles, I approach projects with a comprehensive,
@@ -53,6 +53,7 @@
 		approach to execution.
 	</div>
 </section>
+
 <section>
 	<div class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 xl:flex-row">
 		<h2 class="text-2xl leading-[1.1] lg:text-4xl">Recent Awards</h2>
@@ -75,6 +76,47 @@
 				Rated highly by Zack Bujazia, Michi Del Rosso, Andrew Gargay, Mattia Rinaudo, Polina
 				Molchanova
 			</p>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 xl:flex-row">
+		<h2 class="text-2xl leading-[1.1] lg:text-4xl">Tools & Tech Stack</h2>
+		<div class="w-full max-w-2xl space-y-10">
+			<!-- Design Tools -->
+			<div>
+				<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Design</h3>
+				<div class="flex flex-wrap gap-3">
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Figma</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Jitter</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Elementor</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Photoshop</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Illustrator</span>
+				</div>
+			</div>
+			<!-- Development Tools -->
+			<div>
+				<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Development</h3>
+				<div class="flex flex-wrap gap-3">
+					<span class="rounded-full bg-background px-4 py-2 text-sm">SvelteKit</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Tailwind</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Node.js</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Express.js</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Laravel</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">PHP</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Python</span>
+				</div>
+			</div>
+			<!-- Marketing Tools -->
+			<div>
+				<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Marketing</h3>
+				<div class="flex flex-wrap gap-3">
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Google Analytics</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Google Ads</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">SEMRush</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Microsoft Clarity</span>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
