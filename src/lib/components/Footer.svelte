@@ -7,7 +7,7 @@
 			<a href="https://github.com/zaxwebs">GitHub</a>
 			<a href="https://dev.to/zaxwebs">Dev.to</a>
 		</div>
-		<img class="mx-auto mb-20 w-full" src="images/typographic.svg" alt="Zack Webster" />
+		<img class="mx-auto mb-20 w-full" src="/images/typographic.svg" alt="Zack Webster" />
 		<div class="flex flex-col justify-between gap-4 md:flex-row">
 			<div>&copy; 2026 Zack Webster. All rights reserved.</div>
 			<div>
