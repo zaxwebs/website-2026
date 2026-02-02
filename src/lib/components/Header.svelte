@@ -45,7 +45,7 @@
 
 <header class="fixed top-0 right-0 left-0 z-50 bg-black/90 backdrop-blur-md">
 	<div class="mx-auto max-w-[1400px]">
-		<div class="flex items-center justify-between gap-4 p-4">
+		<div class="flex items-center justify-between gap-4 px-4 py-2">
 			<!-- Logo -->
 			<a href="/" class="group flex items-center gap-2">
 				<LogoBase class="w-4 text-pink-500 group-hover:animate-spin" />
@@ -225,4 +225,4 @@
 </div>
 
 <!-- Spacer to prevent content from being hidden under fixed header -->
-<div class="h-[72px]"></div>
+<div class="h-[56px]"></div>
