@@ -71,7 +71,7 @@
 					</div>
 				</div>
 			</div>
-			<p class="text-sm">
+			<p class="text-sm opacity-50">
 				Rated highly by Zack Bujazia, Michi Del Rosso, Andrew Gargay, Mattia Rinaudo, Polina
 				Molchanova
 			</p>
