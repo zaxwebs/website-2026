@@ -102,9 +102,10 @@
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Tailwind</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Node.js</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Express.js</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">WordPress</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Laravel</span>
-					<span class="rounded-full bg-background px-4 py-2 text-sm">PHP</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Python</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">MySQL</span>
 				</div>
 			</div>
 			<!-- Marketing Tools -->
@@ -113,7 +114,9 @@
 				<div class="flex flex-wrap gap-3">
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Google Analytics</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Google Ads</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Buffer</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">SEMRush</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Yoast</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Microsoft Clarity</span>
 				</div>
 			</div>
