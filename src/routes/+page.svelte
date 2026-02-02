@@ -224,7 +224,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="w-full max-w-xl rounded bg-foreground p-8 text-background">
+		<div class="w-full max-w-xl rounded bg-foreground p-4 py-8 text-background md:p-8">
 			<h3 class="mb-8 text-xl">Have a Project in Mind?</h3>
 			<div class="space-y-4">
 				<Input class="border-gray-200 py-6 dark:bg-gray-100" name="name" placeholder="Your Name" />
@@ -236,7 +236,7 @@
 				<Textarea
 					class="min-h-40 border-gray-200 py-4 dark:bg-gray-100"
 					rows={10}
-					placeholder="Type your message here."
+					placeholder="Type your Message Here"
 				/>
 				<Button class="w-full bg-black py-6 hover:bg-black" variant="secondary">Send Message</Button
 				>
