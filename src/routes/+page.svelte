@@ -205,10 +205,6 @@
 				<div>hi@zackwebster.com</div>
 			</div>
 			<div class="space-y-8">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis purus purus, et
-					malesuada nunc vestibulum eget.
-				</p>
 				<div class="h-px bg-white opacity-10"></div>
 				<div class="flex flex-col gap-4 lg:flex-row">
 					<div class="flex-1">
@@ -227,13 +223,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="not-dark w-full max-w-xl rounded bg-white p-8 text-black">
-			<h3 class="mb-4">Have a Project in Mind?</h3>
+		<div class="w-full max-w-xl rounded bg-foreground p-8 text-background">
+			<h3 class="mb-8 text-xl">Have a Project in Mind?</h3>
 			<div class="space-y-4">
-				<Input name="name" placeholder="Your Name" />
-				<Input name="email" placeholder="Your Email" />
-				<Textarea rows={8} placeholder="Type your message here." />
-				<Button variant="secondary">Send Message</Button>
+				<Input class="border-gray-200 py-6 dark:bg-gray-100" name="name" placeholder="Your Name" />
+				<Input
+					class="border-gray-200 py-6 dark:bg-gray-100"
+					name="email"
+					placeholder="Your Email"
+				/>
+				<Textarea
+					class="min-h-40 border-gray-200 py-4 dark:bg-gray-100"
+					rows={10}
+					placeholder="Type your message here."
+				/>
+				<Button class="w-full py-6" variant="secondary">Send Message</Button>
 				<p class="mt-4 text-xs opacity-50">
 					By sending a message you agree to the <a class="underline" href="/privacy-policy"
 						>privacy policy</a
