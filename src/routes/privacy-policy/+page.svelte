@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Footer from '$lib/components/Footer.svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 </script>
 
@@ -8,14 +9,6 @@
 
 <section id="privacy-policy" class="min-h-screen">
 	<div class="relative mx-auto max-w-[1400px] p-4 py-28">
-		<!-- Background blur effect matched from home page -->
-		<div
-			aria-hidden="true"
-			class="pointer-events-none absolute top-0 right-0 -z-10 aspect-[1/1] w-[50%] max-w-[800px] translate-x-1/3
-			 -translate-y-1/4 rounded-[50%] bg-linear-to-r
-			 from-[#0F43D8] via-[#1AC6E5] to-[#179495] opacity-50 blur-[120px]"
-		></div>
-
 		<div class="flex max-w-3xl flex-col gap-8">
 			<!-- Header -->
 			<div class="flex flex-col gap-4">
@@ -111,3 +104,4 @@
 		</div>
 	</div>
 </section>
+<Footer />
