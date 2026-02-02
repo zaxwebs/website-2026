@@ -2,6 +2,8 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import LogoBase from '$lib/components/ui/LogoBase.svelte';
 	import { Marquee } from '$lib/components/ui/marquee/index.js';
+	import { Input } from '$lib/components/ui/input/index.js';
+	import { Textarea } from '$lib/components/ui/textarea/index.js';
 </script>
 
 <svelte:head>
@@ -193,16 +195,16 @@
 		</div>
 	</div>
 </section>
-<section id="contact">
+<section id="contact" class="relative overflow-hidden">
 	<div
-		class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 lg:gap-24 xl:flex-row"
+		class="mx-auto flex max-w-[1400px] flex-col justify-between gap-8 p-4 py-28 lg:gap-40 xl:flex-row"
 	>
 		<div class="flex flex-col justify-between gap-4">
 			<div class="space-y-4">
 				<h2 class="text-2xl leading-[1.1] lg:text-4xl">Get in Touch</h2>
 				<div>hi@zackwebster.com</div>
 			</div>
-			<div class="space-y-4">
+			<div class="space-y-8">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis purus purus, et
 					malesuada nunc vestibulum eget.
@@ -211,43 +213,50 @@
 				<div class="flex flex-col gap-4 lg:flex-row">
 					<div class="flex-1">
 						<div class="mb-1">Start the Conversation</div>
-						<p class="text-md opacity-50">
-							Your message is the first step. I’ll get back quickly to explore possibilities and
-							next steps.
+						<p class="text-md text-sm leading-[1.6] opacity-50">
+							Your message is the first step. I'll get back quickly to explore possibilities & next
+							steps.
 						</p>
 					</div>
 					<div class="flex-1">
 						<div class="mb-1">Build Something Great</div>
-						<p class="text-md opacity-50">
+						<p class="text-md text-sm leading-[1.6] opacity-50">
 							Together, we'll shape ideas, solve problems, and make great things happen.
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="w-full max-w-2xl bg-white p-8 text-black">
-			<h3>Have a Project in Mind?</h3>
+		<div class="not-dark w-full max-w-xl rounded bg-white p-8 text-black">
+			<h3 class="mb-4">Have a Project in Mind?</h3>
+			<div class="space-y-4">
+				<Input name="name" placeholder="Your Name" />
+				<Input name="email" placeholder="Your Email" />
+				<Textarea rows={8} placeholder="Type your message here." />
+				<Button variant="secondary">Send Message</Button>
+				<p class="mt-4 text-xs opacity-50">
+					By sending a message you agree to the <a class="underline" href="/privacy-policy"
+						>privacy policy</a
+					>.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div
+		aria-hidden="true"
+		class="pointer-events-none absolute -right-[40%] bottom-[20%] -z-10 aspect-[1/1] w-full max-w-[1200px] -translate-x-1/2
+         translate-y-1/2 -rotate-25 rounded-[50%]
+         bg-linear-to-r
+         from-[#FE5F28]
+         to-[#BE08D0] blur-[150px] md:aspect-[6/2]"
+	></div>
+</section>
+<section id="footer">
+	<div class="mx-auto max-w-[1400px] p-4">
+		<div class="flex flex-col justify-between gap-4 md:flex-row">
+			<div>&copy; 2026 Zack Webster. All rights reserved.</div>
 			<div>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut eros malesuada,
-				placerat ipsum a, vestibulum magna. Etiam ligula dui, placerat mattis sem sed, auctor
-				ullamcorper mauris. Quisque vel semper risus. Curabitur maximus sapien sit amet volutpat
-				lobortis. Vestibulum convallis mauris nec nibh aliquam, vitae volutpat sem lobortis. Nunc ac
-				sapien facilisis, egestas urna vel, dignissim nisi. Donec blandit lorem non est porta, sed
-				mattis augue vehicula. Etiam volutpat, arcu in rutrum luctus, purus ante pharetra leo, et
-				euismod enim velit elementum ligula. Nulla a felis ut justo cursus efficitur at sit amet
-				leo. Aliquam aliquet purus id tempor vehicula. Cras dictum commodo nulla, a dictum ex mollis
-				et. Pellentesque commodo laoreet porta. Quisque luctus, nunc sit amet mattis molestie, purus
-				orci finibus ipsum, at pretium enim ex at lorem. Nullam sit amet condimentum arcu. Sed sit
-				amet ante velit. Duis et blandit ex. Donec aliquet pellentesque velit in luctus. Donec
-				pellentesque non erat eu cursus. Donec at tempor leo. Etiam volutpat non dolor in semper.
-				Nulla et tortor nunc. Nunc et rhoncus orci, nec porta urna. Morbi leo arcu, sodales sed
-				turpis quis, accumsan bibendum tellus. Nulla eget tellus vestibulum, consectetur magna id,
-				imperdiet nisl. Etiam pellentesque efficitur mi id mollis. Vestibulum ante ipsum primis in
-				faucibus orci luctus et ultrices posuere cubilia curae; Nunc varius, dolor nec commodo
-				volutpat, urna augue efficitur sapien, sed fermentum metus eros et sem. Praesent ac quam a
-				dolor ullamcorper convallis ac vitae nisi. Donec sodales purus ac leo luctus euismod. Nam
-				lacinia aliquam ligula. Maecenas pellentesque dolor a vestibulum pulvinar. In non lectus sed
-				lectus pharetra ultrices fermentum vulputate nunc.
+				<a href="/privacy-policy">Privacy Policy</a>
 			</div>
 		</div>
 	</div>
