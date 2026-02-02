@@ -4,18 +4,18 @@
 	import { Marquee } from '$lib/components/ui/marquee/index.js';
 	import { Input } from '$lib/components/ui/input/index.js';
 	import { Textarea } from '$lib/components/ui/textarea/index.js';
-	import Footer from '$lib/components/Footer.svelte';
-	import Header from '$lib/components/Header.svelte';
 </script>
 
 <svelte:head>
 	<title>Zack Webster</title>
 </svelte:head>
 
-<Header />
-<section id="hero" class="relative flex min-h-screen flex-col justify-between overflow-hidden">
+<section
+	id="hero"
+	class="relative flex min-h-[calc(100vh-56px)] flex-col justify-between overflow-hidden"
+>
 	<div
-		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 pt-32 text-center md:gap-5 lg:pt-30"
+		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 pt-32 text-center md:gap-5 lg:pt-20"
 	>
 		<h1 class="text-3xl leading-[1.1] md:text-4xl lg:text-6xl">
 			Helping Businesses Excel with Design, Development & Marketing
@@ -259,4 +259,3 @@
          to-[#BE08D0] blur-[150px] md:aspect-[6/2]"
 	></div>
 </section>
-<Footer />
