@@ -60,13 +60,13 @@
 		<div class="w-full max-w-2xl space-y-8">
 			<div class="flex gap-4">
 				<div class="flex-1 rounded-md bg-background p-4 py-6">
-					<img class="mb-10 w-24" src="images/cssda.svg" alt="CSS Design Awards" />
+					<img class="mb-10 w-24" src="/images/cssda.svg" alt="CSS Design Awards" />
 					<div class="flex gap-2">
 						<LogoBase class="w-4 text-orange-500" /> Best UI Design
 					</div>
 				</div>
 				<div class="flex-1 rounded-md bg-background p-4 py-6">
-					<img class="mb-10 w-24" src="images/cssda.svg" alt="CSS Design Awards" />
+					<img class="mb-10 w-24" src="/images/cssda.svg" alt="CSS Design Awards" />
 					<div class="flex gap-2">
 						<LogoBase class="w-4 text-purple-500" /> Best User Experience
 					</div>
