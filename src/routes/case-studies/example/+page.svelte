@@ -13,7 +13,7 @@
 	<div class="mx-auto max-w-[1600px]">
 		<img src="https://placehold.co/1600x900/303030/808080" alt="Case Study" />
 	</div>
-	<div class="mx-auto grid w-full max-w-[1400px] grid-cols-4 justify-between gap-4">
+	<div class="mx-auto flex w-full max-w-[1400px] justify-between gap-4">
 		<div>
 			<div class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Client</div>
 			<div class="text-2xl">Acme Inc.</div>
