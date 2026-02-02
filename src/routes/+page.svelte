@@ -237,7 +237,7 @@
 					rows={10}
 					placeholder="Type your message here."
 				/>
-				<Button class="w-full py-6" variant="secondary">Send Message</Button>
+				<Button class="w-full py-6 hover:bg-secondary" variant="secondary">Send Message</Button>
 				<p class="mt-4 text-xs opacity-50">
 					By sending a message you agree to the <a class="underline" href="/privacy-policy"
 						>privacy policy</a
