@@ -1,4 +1,4 @@
-<footer id="footer" class="overflow-hidden">
+<footer id="footer" class="overflow-hidden bg-background">
 	<img class="mx-auto" src="images/typographic.svg" alt="Zack Webster" />
 	<div class="mx-auto max-w-[1400px] p-4">
 		<div class="mt-20 mb-32 flex flex-col justify-between gap-4 md:flex-row">

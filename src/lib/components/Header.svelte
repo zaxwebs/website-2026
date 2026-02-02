@@ -35,9 +35,9 @@
 
 	const navLinks = [
 		{ href: '/', label: 'Home' },
-		{ href: '#about', label: 'About' },
-		{ href: '#work', label: 'Work' },
-		{ href: '#contact', label: 'Contact' }
+		{ href: '/about', label: 'About' },
+		{ href: '/#work', label: 'Work' },
+		{ href: '/#contact', label: 'Contact' }
 	];
 </script>
 
@@ -62,7 +62,7 @@
 						{link.label}
 					</a>
 				{/each}
-				<Button variant="outline" href="#contact" class="ml-2">Get in Touch</Button>
+				<Button variant="outline" href="/#contact" class="ml-2">Get in Touch</Button>
 			</nav>
 
 			<!-- Mobile Menu Button -->
