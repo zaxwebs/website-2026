@@ -5,26 +5,14 @@
 	import { Input } from '$lib/components/ui/input/index.js';
 	import { Textarea } from '$lib/components/ui/textarea/index.js';
 	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/Header.svelte';
 </script>
 
 <svelte:head>
 	<title>Zack Webster</title>
 </svelte:head>
 
-<header>
-	<div class="flex justify-between gap-4 p-4">
-		<a href="/" class="group flex items-center gap-2">
-			<LogoBase class="w-4 text-pink-500 group-hover:animate-spin" />
-			<img class="h-6" src="/images/typographic.svg" alt="Name" />
-		</a>
-		<nav class="flex gap-4">
-			<a href="/">Home</a>
-			<a href="#about">About</a>
-			<a href="#work">Work</a>
-			<a href="#contact">Contact</a>
-		</nav>
-	</div>
-</header>
+<Header />
 <section id="hero" class="relative flex min-h-screen flex-col justify-between overflow-hidden">
 	<div
 		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 pt-32 text-center md:gap-5 lg:pt-30"
