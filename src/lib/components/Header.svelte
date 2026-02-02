@@ -112,7 +112,7 @@
 	inert={!isMenuOpen ? true : undefined}
 >
 	<!-- Header with close button -->
-	<div class="flex items-center justify-between p-4">
+	<div class="flex items-center justify-between px-4 py-2">
 		<a
 			href="/"
 			class="group flex items-center gap-2"
