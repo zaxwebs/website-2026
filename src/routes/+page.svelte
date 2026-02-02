@@ -215,9 +215,9 @@
 						</p>
 					</div>
 					<div class="flex-1">
-						<div class="mb-1">Build Something Great</div>
+						<div class="mb-1">Towards Something Great</div>
 						<p class="text-md text-sm leading-relaxed opacity-50">
-							Together, we'll shape ideas, solve problems, and make great things happen.
+							We'll shape ideas, solve problems, and make great things happen.
 						</p>
 					</div>
 				</div>
