@@ -213,14 +213,14 @@
 				<div class="flex flex-col gap-4 lg:flex-row">
 					<div class="flex-1">
 						<div class="mb-1">Start the Conversation</div>
-						<p class="text-md text-sm leading-[1.6] opacity-50">
+						<p class="text-md text-sm leading-relaxed opacity-50">
 							Your message is the first step. I'll get back quickly to explore possibilities & next
 							steps.
 						</p>
 					</div>
 					<div class="flex-1">
 						<div class="mb-1">Build Something Great</div>
-						<p class="text-md text-sm leading-[1.6] opacity-50">
+						<p class="text-md text-sm leading-relaxed opacity-50">
 							Together, we'll shape ideas, solve problems, and make great things happen.
 						</p>
 					</div>
