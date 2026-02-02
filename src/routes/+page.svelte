@@ -255,9 +255,10 @@
          to-[#BE08D0] blur-[150px] md:aspect-[6/2]"
 	></div>
 </section>
-<section id="footer">
+<section id="footer" class="overflow-hidden">
+	<img class="mx-auto" src="images/typographic.svg" alt="Zack Webster" />
 	<div class="mx-auto max-w-[1400px] p-4">
-		<div class="my-20 flex flex-col justify-between gap-4 md:flex-row">
+		<div class="mt-20 mb-32 flex flex-col justify-between gap-4 md:flex-row">
 			<a href="https://www.instagram.com/zaxwebs">Instagram</a>
 			<a href="https://www.linkedin.com/in/zackwebs/">LinkedIn</a>
 			<a href="https://dribbble.com/zaxwebs">Dribbble</a>
