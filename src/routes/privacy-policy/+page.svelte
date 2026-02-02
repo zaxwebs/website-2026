@@ -1,0 +1,113 @@
+<script lang="ts">
+	import { Button } from '$lib/components/ui/button/index.js';
+</script>
+
+<svelte:head>
+	<title>Privacy Policy - Zack Webster</title>
+</svelte:head>
+
+<section id="privacy-policy" class="min-h-screen">
+	<div class="relative mx-auto max-w-[1400px] p-4 py-28">
+		<!-- Background blur effect matched from home page -->
+		<div
+			aria-hidden="true"
+			class="pointer-events-none absolute top-0 right-0 -z-10 aspect-[1/1] w-[50%] max-w-[800px] translate-x-1/3
+			 -translate-y-1/4 rounded-[50%] bg-linear-to-r
+			 from-[#0F43D8] via-[#1AC6E5] to-[#179495] opacity-50 blur-[120px]"
+		></div>
+
+		<div class="flex max-w-3xl flex-col gap-8">
+			<!-- Header -->
+			<div class="flex flex-col gap-4">
+				<h1 class="text-3xl leading-[1.1] font-bold tracking-tight md:text-5xl lg:text-7xl">
+					Privacy Policy
+				</h1>
+				<p class="text-lg opacity-70">Last updated: February 2, 2026</p>
+			</div>
+
+			<!-- Content -->
+			<div class="space-y-8 text-base leading-relaxed opacity-90">
+				<p class="text-lg">
+					Your privacy is important to me and my team. This policy explains how we respect and
+					protect your privacy with regard to any information we may collect from you through my
+					website, zackwebster.com, and any other websites I own and operate.
+				</p>
+
+				<div class="space-y-4">
+					<h2 class="text-2xl font-semibold text-white">1. Information We Collect</h2>
+					<p>
+						We may collect personal information that you voluntarily provide to us when you express
+						an interest in obtaining information about us or our products and services, when you
+						participate in activities on the Website or otherwise when you contact us.
+					</p>
+					<p>
+						The personal information we collect depends on the context of your interactions with us
+						and the Website, the choices you make and the products and features you use. The
+						personal information we collect may include the following:
+					</p>
+					<ul class="list-disc space-y-2 pl-5 marker:text-gray-500">
+						<li>Names</li>
+						<li>Email addresses</li>
+					</ul>
+				</div>
+
+				<div class="space-y-4">
+					<h2 class="text-2xl font-semibold text-white">2. How We Use Your Information</h2>
+					<p>We use the information we collect or receive:</p>
+					<ul class="list-disc space-y-2 pl-5 marker:text-gray-500">
+						<li>To send you marketing and promotional communications.</li>
+						<li>To respond to user inquiries/offer support to users.</li>
+						<li>To deliver targeted advertising to you.</li>
+					</ul>
+				</div>
+
+				<div class="space-y-4">
+					<h2 class="text-2xl font-semibold text-white">3. Log Data</h2>
+					<p>
+						When you visit our website, our servers may automatically log the standard data provided
+						by your web browser. It may include your computer’s Internet Protocol (IP) address, your
+						browser type and version, the pages you visit, the time and date of your visit, the time
+						spent on each page, and other details.
+					</p>
+				</div>
+
+				<div class="space-y-4">
+					<h2 class="text-2xl font-semibold text-white">4. Cookies</h2>
+					<p>
+						We use "cookies" to collect information about you and your activity across our site. A
+						cookie is a small piece of data that our website stores on your computer, and accesses
+						each time you visit, so we can understand how you use our site. This helps us serve you
+						content based on preferences you have specified.
+					</p>
+				</div>
+
+				<div class="space-y-4">
+					<h2 class="text-2xl font-semibold text-white">5. Security</h2>
+					<p>
+						We value your trust in providing us your Personal Information, thus we are striving to
+						use commercially acceptable means of protecting it. But remember that no method of
+						transmission over the internet, or method of electronic storage is 100% secure and
+						reliable, and we cannot guarantee its absolute security.
+					</p>
+				</div>
+
+				<div class="space-y-4">
+					<h2 class="text-2xl font-semibold text-white">6. Contact Us</h2>
+					<p>
+						If you have any questions or suggestions about my Privacy Policy, do not hesitate to
+						contact me at <a
+							href="mailto:hi@zackwebster.com"
+							class="underline transition-colors hover:text-white">hi@zackwebster.com</a
+						>.
+					</p>
+				</div>
+			</div>
+
+			<div class="mb-16 pt-8">
+				<a href="/" tabindex="-1">
+					<Button variant="outline">Back to Home</Button>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
