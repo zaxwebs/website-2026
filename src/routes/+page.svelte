@@ -15,7 +15,7 @@
 	<div
 		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 pt-32 text-center md:gap-5 lg:pt-20"
 	>
-		<h1 class="text-3xl leading-[1.1] md:text-4xl lg:text-6xl">
+		<h1 class="text-3xl leading-[1.1] tracking-tight md:text-4xl lg:text-6xl">
 			Helping Businesses Excel with Design, Development & Marketing
 		</h1>
 		<p class="mt-0 max-w-md lg:mt-2">
@@ -43,7 +43,9 @@
 <section id="about">
 	<div class="mx-auto max-w-[1400px] p-4 py-28">
 		<div class="flex flex-col items-center justify-center gap-4 text-center">
-			<h2 class="text-2xl leading-[1.1] md:text-3xl lg:text-5xl">A Holistic Product Partner</h2>
+			<h2 class="text-2xl leading-[1.1] tracking-tight md:text-3xl lg:text-5xl">
+				A Holistic Product Partner
+			</h2>
 			<p class="mt-0 max-w-3xl lg:mt-2">
 				I help teams and founders design & build digital products that are clear, cohesive, and
 				engineered to perform. Whether I'm contributing in a single area or guiding the full product
@@ -120,7 +122,7 @@
 <section id="work">
 	<div class="mx-auto max-w-[1400px] p-4 py-28">
 		<div class="mb-24 flex flex-col justify-between gap-4 xl:flex-row">
-			<h2 class="text-2xl leading-[1.1] lg:text-4xl">Featured Work</h2>
+			<h2 class="text-2xl leading-[1.1] tracking-tight lg:text-4xl">Featured Work</h2>
 			<p class="max-w-lg">
 				A curated selection of digital work across design and development & more.
 			</p>
@@ -164,7 +166,7 @@
 <section id="testimonials">
 	<div class="mx-auto max-w-[1400px] p-4 py-28">
 		<div class="flex flex-col justify-between gap-4 xl:flex-row">
-			<h2 class="text-2xl leading-[1.1] lg:text-4xl">Featured Testimonials</h2>
+			<h2 class="text-2xl leading-[1.1] tracking-tight lg:text-4xl">Featured Testimonials</h2>
 			<div class="flex max-w-2xl flex-col gap-4">
 				<div class="rounded-md bg-background p-4">
 					<div class="flex items-end gap-4">

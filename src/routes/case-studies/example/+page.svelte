@@ -7,7 +7,7 @@
 		<div
 			class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 text-center md:gap-5"
 		>
-			<h1 class="text-3xl leading-[1.1] md:text-4xl lg:text-6xl">
+			<h1 class="text-3xl leading-[1.1] tracking-tight md:text-4xl lg:text-6xl">
 				Designing a Scalable Platform for a Global SaaS
 			</h1>
 			<p class="mt-0 max-w-md lg:mt-2">
@@ -42,7 +42,7 @@
 	<div class="p-4 py-28 pt-0">
 		<div class="mx-auto flex max-w-[1400px] flex-col gap-10 lg:flex-row lg:gap-20">
 			<div class="flex-1">
-				<h2 class="mb-8 text-2xl leading-[1.1] lg:text-3xl">Overview</h2>
+				<h2 class="mb-8 text-2xl leading-[1.1] tracking-tight lg:text-3xl">Overview</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean
 					sed faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus
@@ -58,7 +58,7 @@
 				</p>
 			</div>
 			<div class="flex-1">
-				<h2 class="mb-8 text-2xl leading-[1.1] lg:text-3xl">Challenges</h2>
+				<h2 class="mb-8 text-2xl leading-[1.1] tracking-tight lg:text-3xl">Challenges</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean
 					sed faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus
@@ -72,7 +72,9 @@
 <section id="content">
 	<div class="p-4 py-28 pt-0">
 		<div class="mx-auto flex max-w-[1400px] flex-col gap-8">
-			<h2 class="text-2xl leading-[1.1] md:text-center lg:text-4xl">Strategy & Execution</h2>
+			<h2 class="text-2xl leading-[1.1] tracking-tight md:text-center lg:text-4xl">
+				Strategy & Execution
+			</h2>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean sed
 				faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus mollis
@@ -99,7 +101,9 @@
 </section>
 <section id="outcome">
 	<div class="mx-auto max-w-[1000px] p-4 py-28 pt-0">
-		<h2 class="mb-10 text-center text-2xl leading-[1.1] lg:text-4xl">Impact & Outcome</h2>
+		<h2 class="mb-10 text-center text-2xl leading-[1.1] tracking-tight lg:text-4xl">
+			Impact & Outcome
+		</h2>
 		<div class="rounded-md bg-background p-6 py-20 text-center text-xl md:p-12 md:text-2xl">
 			200% increase in impressions, 150% increase in clicks, and a 100% increase in conversions.
 		</div>

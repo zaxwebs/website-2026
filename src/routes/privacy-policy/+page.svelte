@@ -12,7 +12,9 @@
 		<div class="flex max-w-3xl flex-col gap-8">
 			<!-- Header -->
 			<div class="flex flex-col gap-4">
-				<h1 class="text-3xl leading-[1.1] md:text-4xl lg:text-6xl">Privacy Policy</h1>
+				<h1 class="text-3xl leading-[1.1] tracking-tight md:text-4xl lg:text-6xl">
+					Privacy Policy
+				</h1>
 				<p class="tetx-sm opacity-70">Last updated: February 2, 2026</p>
 			</div>
 

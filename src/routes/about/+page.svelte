@@ -14,7 +14,9 @@
 	<div
 		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 pt-32 text-center md:gap-5 lg:pt-20"
 	>
-		<h1 class="text-3xl leading-[1.1] md:text-4xl lg:text-6xl">Freelance Designer & Developer</h1>
+		<h1 class="text-3xl leading-[1.1] tracking-tight md:text-4xl lg:text-6xl">
+			Freelance Designer & Developer
+		</h1>
 		<p class="mt-0 max-w-md lg:mt-2">
 			End-to-end digital solutions, built with experience and precision.
 		</p>
@@ -55,7 +57,7 @@
 
 <section>
 	<div class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 xl:flex-row">
-		<h2 class="text-2xl leading-[1.1] lg:text-4xl">Recent Awards</h2>
+		<h2 class="text-2xl leading-[1.1] tracking-tight lg:text-4xl">Recent Awards</h2>
 		<div class="w-full max-w-2xl space-y-8">
 			<div class="flex gap-4">
 				<div class="flex-1 rounded-md bg-background p-4 py-6">
@@ -80,7 +82,7 @@
 </section>
 <section>
 	<div class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 xl:flex-row">
-		<h2 class="text-2xl leading-[1.1] lg:text-4xl">Tools & Tech Stack</h2>
+		<h2 class="text-2xl leading-[1.1] tracking-tight lg:text-4xl">Tools & Tech Stack</h2>
 		<div class="w-full max-w-2xl space-y-10">
 			<!-- Design Tools -->
 			<div>

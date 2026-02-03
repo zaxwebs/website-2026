@@ -33,7 +33,7 @@
 			</div>
 		</div>
 		<div class="w-full max-w-xl rounded-md bg-foreground p-4 py-8 text-background md:p-8">
-			<h3 class="mb-8 text-xl">Have a Project in Mind?</h3>
+			<h3 class="mb-8 text-xl tracking-tight">Have a Project in Mind?</h3>
 			<div class="space-y-4">
 				<Input class="border-gray-200 py-6 dark:bg-gray-100" name="name" placeholder="Your Name" />
 				<Input
