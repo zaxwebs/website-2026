@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Footer from '$lib/components/Footer.svelte';
+	import Prose from '$lib/components/Prose.svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 </script>
 
@@ -19,9 +19,7 @@
 			</div>
 
 			<!-- Content -->
-			<div
-				class="prose prose-invert prose-p:text-base prose-p:leading-relaxed prose-p:opacity-90 prose-headings:text-2xl prose-headings:font-semibold prose-headings:text-white prose-ul:list-disc prose-li:marker:text-gray-500 prose-a:underline hover:prose-a:text-white prose-a:transition-colors max-w-none [&>p:first-child]:text-lg"
-			>
+			<Prose>
 				<p>
 					Your privacy is important to me and my team. This policy explains how we respect and
 					protect your privacy with regard to any information we may collect from you through my
@@ -81,7 +79,7 @@
 					If you have any questions or suggestions about my Privacy Policy, do not hesitate to
 					contact me at <a href="mailto:hi@zackwebster.com">hi@zackwebster.com</a>.
 				</p>
-			</div>
+			</Prose>
 
 			<div class="mb-16 pt-8">
 				<a href="/" tabindex="-1">
