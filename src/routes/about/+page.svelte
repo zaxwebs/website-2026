@@ -1,6 +1,12 @@
 <script>
 	import LogoBase from '$lib/components/ui/LogoBase.svelte';
 	import Marquee from '$lib/components/ui/marquee/marquee.svelte';
+	import { onMount } from 'svelte';
+	import { runPageAnimations } from './animation.js';
+
+	onMount(() => {
+		runPageAnimations();
+	});
 </script>
 
 <svelte:head>
@@ -80,14 +86,14 @@
 		</div>
 	</div>
 </section>
-<section>
+<section id="tools">
 	<div class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 xl:flex-row">
 		<h2 class="text-2xl leading-[1.1] tracking-tight lg:text-4xl">Tools & Tech Stack</h2>
 		<div class="w-full max-w-2xl space-y-10">
 			<!-- Design Tools -->
-			<div>
+			<div class="tool-container">
 				<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Design</h3>
-				<div class="flex flex-wrap gap-3">
+				<div class="tool-list flex flex-wrap gap-3">
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Figma</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Jitter</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Elementor</span>
@@ -96,9 +102,9 @@
 				</div>
 			</div>
 			<!-- Development Tools -->
-			<div>
+			<div class="tool-container">
 				<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Development</h3>
-				<div class="flex flex-wrap gap-3">
+				<div class="tool-list flex flex-wrap gap-3">
 					<span class="rounded-full bg-background px-4 py-2 text-sm">SvelteKit</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Tailwind</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Node.js</span>
@@ -110,9 +116,9 @@
 				</div>
 			</div>
 			<!-- Marketing Tools -->
-			<div>
+			<div class="tool-container">
 				<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Marketing</h3>
-				<div class="flex flex-wrap gap-3">
+				<div class="tool-list flex flex-wrap gap-3">
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Google Analytics</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Google Ads</span>
 					<span class="rounded-full bg-background px-4 py-2 text-sm">Buffer</span>
