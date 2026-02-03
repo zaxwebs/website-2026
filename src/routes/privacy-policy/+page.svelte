@@ -7,8 +7,8 @@
 	<title>Privacy Policy - Zack Webster</title>
 </svelte:head>
 
-<section class="min-h-screen">
-	<div class="relative mx-auto max-w-[1400px] p-4 py-20">
+<section>
+	<div class="mx-auto max-w-[1400px] p-4 py-20">
 		<div class="flex max-w-3xl flex-col gap-8">
 			<!-- Header -->
 			<div class="flex flex-col gap-4">
