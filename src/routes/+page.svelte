@@ -162,36 +162,38 @@
 	</div>
 </section>
 <section id="testimonials">
-	<div class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 xl:flex-row">
-		<h2 class="text-2xl leading-[1.1] lg:text-4xl">Featured Testimonials</h2>
-		<div class="flex max-w-2xl flex-col gap-4">
-			<div class="rounded-md bg-background p-4">
-				<div class="flex items-end gap-4">
-					<img class="w-20 rounded" src="/images/kelly-smith.avif" alt="Kelly Smith" />
-					<div>
-						<h3 class="mb-1">Kelly Smith</h3>
-						<p class="opacity-50">CEO of AG — Digital Initiatives at Starbucks</p>
+	<div class="mx-auto max-w-[1400px] p-4 py-28">
+		<div class="flex flex-col justify-between gap-4 xl:flex-row">
+			<h2 class="text-2xl leading-[1.1] lg:text-4xl">Featured Testimonials</h2>
+			<div class="flex max-w-2xl flex-col gap-4">
+				<div class="rounded-md bg-background p-4">
+					<div class="flex items-end gap-4">
+						<img class="w-20 rounded" src="/images/kelly-smith.avif" alt="Kelly Smith" />
+						<div>
+							<h3 class="mb-1">Kelly Smith</h3>
+							<p class="opacity-50">CEO of AG — Digital Initiatives at Starbucks</p>
+						</div>
 					</div>
+					<p class="mt-4">
+						Zack is a dedicated professional who consistently pushes to deliver strong results. He
+						brings genuine enthusiasm to his work and is highly recommended.
+					</p>
 				</div>
-				<p class="mt-4">
-					Zack is a dedicated professional who consistently pushes to deliver strong results. He
-					brings genuine enthusiasm to his work and is highly recommended.
-				</p>
-			</div>
-			<div class="rounded-md bg-background p-4">
-				<div class="flex items-end gap-4">
-					<img class="w-20 rounded" src="/images/brian-canavan.avif" alt="Brian Canavan" />
-					<div>
-						<h3 class="mb-1">Brian Canavan</h3>
-						<p class="opacity-50">Media & Content — 25 Million Views</p>
+				<div class="rounded-md bg-background p-4">
+					<div class="flex items-end gap-4">
+						<img class="w-20 rounded" src="/images/brian-canavan.avif" alt="Brian Canavan" />
+						<div>
+							<h3 class="mb-1">Brian Canavan</h3>
+							<p class="opacity-50">Media & Content — 25 Million Views</p>
+						</div>
 					</div>
+					<p class="mt-4">
+						Zack quickly understood our goals and vision and translated them into a moodboard that
+						set the tone right away. The process was organized, smooth, and executed with care. My
+						community has responded incredibly positively to the final site, and I am thrilled with
+						how it turned out. I would happily recommend Webster to anyone needing a new website.
+					</p>
 				</div>
-				<p class="mt-4">
-					Zack quickly understood our goals and vision and translated them into a moodboard that set
-					the tone right away. The process was organized, smooth, and executed with care. My
-					community has responded incredibly positively to the final site, and I am thrilled with
-					how it turned out. I would happily recommend Webster to anyone needing a new website.
-				</p>
 			</div>
 		</div>
 	</div>
