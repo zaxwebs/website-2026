@@ -35,16 +35,21 @@
 <section>
 	<div class="p-4 py-28 pt-0">
 		<div class="mx-auto flex max-w-[1400px] flex-col gap-10 lg:flex-row lg:gap-20">
-			<div>
+			<div class="flex-1">
 				<h2 class="mb-2 text-2xl">Overview</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean
 					sed faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus
 					mollis laoreet porta. Ut fermentum nunc in purus faucibus convallis. Integer dictum urna
 					finibus ligula fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies.
+					Aliquam maximus, est et consequat suscipit, ante sem eleifend nunc, et pellentesque felis
+					nulla in sem. Cras accumsan, lectus id viverra luctus, mi risus elementum odio, quis
+					tristique turpis mauris eget urna. Aliquam viverra sapien a augue molestie, eget porttitor
+					erat faucibus. Nunc sit amet suscipit libero. Nullam iaculis bibendum venenatis. Mauris
+					feugiat massa consequat, posuere mi id, pellentesque sem.
 				</p>
 			</div>
-			<div>
+			<div class="flex-1">
 				<h2 class="mb-2 text-2xl">Challenges</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean
