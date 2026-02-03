@@ -1,3 +1,7 @@
+<script>
+	import Contact from '$lib/components/Contact.svelte';
+</script>
+
 <section class="space-y-8 px-4 pt-32 pb-32 lg:pt-20">
 	<div
 		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 text-center md:gap-5"
@@ -61,3 +65,37 @@
 		</div>
 	</div>
 </section>
+<section id="content">
+	<div class="p-4 py-28 pt-0">
+		<h2 class="mb-8 text-center text-2xl leading-[1.1] lg:text-4xl">Strategy & Execution</h2>
+		<div class="mx-auto flex max-w-[1400px] flex-col gap-8">
+			<img src="https://placehold.co/1600x900/303030/808080" alt="Case Study" />
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean sed
+				faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus mollis
+				laoreet porta. Ut fermentum nunc in purus faucibus convallis. Integer dictum urna finibus
+				ligula fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies.
+			</p>
+			<h3 class="text-2xl">Development</h3>
+			<img src="https://placehold.co/1600x900/303030/808080" alt="Case Study" />
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean sed
+				faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus mollis
+				laoreet porta. Ut fermentum nunc in purus faucibus convallis. Integer dictum urna finibus
+				ligula fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies.
+			</p>
+		</div>
+	</div>
+</section>
+<section id="outcome">
+	<div class="mx-auto max-w-[1000px] p-4 py-28 pt-0">
+		<h2 class="mb-10 text-center text-2xl leading-[1.1] lg:text-4xl">Impact & Outcome</h2>
+		<p class="text-center text-xl md:text-2xl">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean sed
+			faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus mollis
+			laoreet porta. Ut fermentum nunc in purus faucibus convallis. Integer dictum urna finibus
+			ligula fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies.
+		</p>
+	</div>
+</section>
+<Contact />
