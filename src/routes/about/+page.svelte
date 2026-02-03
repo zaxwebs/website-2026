@@ -1,5 +1,4 @@
 <script>
-	import { Button } from '$lib/components/ui/button/index.js';
 	import LogoBase from '$lib/components/ui/LogoBase.svelte';
 	import Marquee from '$lib/components/ui/marquee/marquee.svelte';
 </script>
@@ -45,85 +44,79 @@
 	</Marquee>
 </section>
 <section>
-	<div class="mx-auto max-w-[1400px] p-4 py-28">
-		<div class="text-xl md:text-3xl">
-			I bring over eight years of experience delivering digital solutions for clients worldwide.
-			I've worked with startups, established businesses, and multinational organizations across
-			diverse industries. With experience spanning multiple roles, I approach projects with a
-			comprehensive, end-to-end perspective. My work is defined by strong attention to detail and a
-			disciplined approach to execution.
-		</div>
+	<div class="mx-auto max-w-[1400px] p-4 py-28 text-xl md:text-3xl">
+		I bring over eight years of experience delivering digital solutions for clients worldwide. I've
+		worked with startups, established businesses, and multinational organizations across diverse
+		industries. With experience spanning multiple roles, I approach projects with a comprehensive,
+		end-to-end perspective. My work is defined by strong attention to detail and a disciplined
+		approach to execution.
 	</div>
 </section>
 
 <section>
-	<div class="mx-auto max-w-[1400px] p-4 py-28">
-		<div class="flex flex-col justify-between gap-4 xl:flex-row">
-			<h2 class="text-2xl leading-[1.1] lg:text-4xl">Recent Awards</h2>
-			<div class="w-full max-w-2xl space-y-8">
-				<div class="flex gap-4">
-					<div class="flex-1 rounded-md bg-background p-4 py-6">
-						<img class="mb-10 w-24" src="/images/cssda.svg" alt="CSS Design Awards" />
-						<div class="flex gap-2">
-							<LogoBase class="w-4 text-orange-500" /> Best UI Design
-						</div>
-					</div>
-					<div class="flex-1 rounded-md bg-background p-4 py-6">
-						<img class="mb-10 w-24" src="/images/cssda.svg" alt="CSS Design Awards" />
-						<div class="flex gap-2">
-							<LogoBase class="w-4 text-purple-500" /> Best User Experience
-						</div>
+	<div class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 xl:flex-row">
+		<h2 class="text-2xl leading-[1.1] lg:text-4xl">Recent Awards</h2>
+		<div class="w-full max-w-2xl space-y-8">
+			<div class="flex gap-4">
+				<div class="flex-1 rounded-md bg-background p-4 py-6">
+					<img class="mb-10 w-24" src="/images/cssda.svg" alt="CSS Design Awards" />
+					<div class="flex gap-2">
+						<LogoBase class="w-4 text-orange-500" /> Best UI Design
 					</div>
 				</div>
-				<p class="text-sm opacity-50">
-					Rated highly by Zack Bujazia, Michi Del Rosso, Andrew Gargay, Mattia Rinaudo, Polina
-					Molchanova
-				</p>
+				<div class="flex-1 rounded-md bg-background p-4 py-6">
+					<img class="mb-10 w-24" src="/images/cssda.svg" alt="CSS Design Awards" />
+					<div class="flex gap-2">
+						<LogoBase class="w-4 text-purple-500" /> Best User Experience
+					</div>
+				</div>
 			</div>
+			<p class="text-sm opacity-50">
+				Rated highly by Zack Bujazia, Michi Del Rosso, Andrew Gargay, Mattia Rinaudo, Polina
+				Molchanova
+			</p>
 		</div>
 	</div>
 </section>
 <section>
-	<div class="mx-auto max-w-[1400px] p-4 py-28">
-		<div class="flex flex-col justify-between gap-4 xl:flex-row">
-			<h2 class="text-2xl leading-[1.1] lg:text-4xl">Tools & Tech Stack</h2>
-			<div class="w-full max-w-2xl space-y-10">
-				<!-- Design Tools -->
-				<div>
-					<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Design</h3>
-					<div class="flex flex-wrap gap-3">
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Figma</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Jitter</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Elementor</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Photoshop</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Illustrator</span>
-					</div>
+	<div class="mx-auto flex max-w-[1400px] flex-col justify-between gap-4 p-4 py-28 xl:flex-row">
+		<h2 class="text-2xl leading-[1.1] lg:text-4xl">Tools & Tech Stack</h2>
+		<div class="w-full max-w-2xl space-y-10">
+			<!-- Design Tools -->
+			<div>
+				<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Design</h3>
+				<div class="flex flex-wrap gap-3">
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Figma</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Jitter</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Elementor</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Photoshop</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Illustrator</span>
 				</div>
-				<!-- Development Tools -->
-				<div>
-					<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Development</h3>
-					<div class="flex flex-wrap gap-3">
-						<span class="rounded-full bg-background px-4 py-2 text-sm">SvelteKit</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Tailwind</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Node.js</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Express.js</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">WordPress</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Laravel</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Python</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">MySQL</span>
-					</div>
+			</div>
+			<!-- Development Tools -->
+			<div>
+				<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Development</h3>
+				<div class="flex flex-wrap gap-3">
+					<span class="rounded-full bg-background px-4 py-2 text-sm">SvelteKit</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Tailwind</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Node.js</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Express.js</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">WordPress</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Laravel</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Python</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">MySQL</span>
 				</div>
-				<!-- Marketing Tools -->
-				<div>
-					<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Marketing</h3>
-					<div class="flex flex-wrap gap-3">
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Google Analytics</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Google Ads</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Buffer</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">SEMRush</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Yoast</span>
-						<span class="rounded-full bg-background px-4 py-2 text-sm">Microsoft Clarity</span>
-					</div>
+			</div>
+			<!-- Marketing Tools -->
+			<div>
+				<h3 class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Marketing</h3>
+				<div class="flex flex-wrap gap-3">
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Google Analytics</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Google Ads</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Buffer</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">SEMRush</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Yoast</span>
+					<span class="rounded-full bg-background px-4 py-2 text-sm">Microsoft Clarity</span>
 				</div>
 			</div>
 		</div>

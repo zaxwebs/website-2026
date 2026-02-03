@@ -45,11 +45,11 @@
 		<div class="flex flex-col items-center justify-center gap-4 text-center">
 			<h2 class="text-2xl leading-[1.1] md:text-3xl lg:text-5xl">A Holistic Product Partner</h2>
 			<p class="mt-0 max-w-3xl lg:mt-2">
-				I help teams and founders build digital products that are clear, cohesive, and built to
-				perform. Whether I'm contributing in a single area or guiding the full product lifecycle, my
-				work is always grounded in alignment and outcomes. I approach design, development, and
-				growth as interconnected parts of the same system, so every decision supports the bigger
-				picture.
+				I help teams and founders design & build digital products that are clear, cohesive, and
+				engineered to perform. Whether I'm contributing in a single area or guiding the full product
+				lifecycle, my work is always grounded in alignment and outcomes. I approach design,
+				development, and growth as interconnected parts of the same system, so every decision
+				supports the bigger picture.
 			</p>
 		</div>
 		<div class="mt-16 flex flex-col gap-4 md:flex-row">
