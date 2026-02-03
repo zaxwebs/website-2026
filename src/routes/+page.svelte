@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
 	import LogoBase from '$lib/components/ui/LogoBase.svelte';
-	import Contact from '$lib/components/Contact.svelte';
+	import ContactSection from '$lib/components/ContactSection.svelte';
 </script>
 
 <svelte:head>
@@ -196,4 +196,4 @@
 		</div>
 	</div>
 </section>
-<Contact />
+<ContactSection />

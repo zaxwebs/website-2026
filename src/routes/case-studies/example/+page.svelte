@@ -1,5 +1,5 @@
 <script>
-	import Contact from '$lib/components/Contact.svelte';
+	import ContactSection from '$lib/components/ContactSection.svelte';
 </script>
 
 <section class="space-y-8 px-4 pt-32 pb-32 lg:pt-20">
@@ -90,12 +90,9 @@
 <section id="outcome">
 	<div class="mx-auto max-w-[1000px] p-4 py-28 pt-0">
 		<h2 class="mb-10 text-center text-2xl leading-[1.1] lg:text-4xl">Impact & Outcome</h2>
-		<p class="text-center text-xl md:text-2xl">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean sed
-			faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus mollis
-			laoreet porta. Ut fermentum nunc in purus faucibus convallis. Integer dictum urna finibus
-			ligula fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies.
+		<p class="text-center text-xl font-medium md:text-2xl">
+			200% increase in impressions, 150% increase in clicks, and a 100% increase in conversions.
 		</p>
 	</div>
 </section>
-<Contact />
+<ContactSection />
