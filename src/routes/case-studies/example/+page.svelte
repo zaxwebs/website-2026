@@ -40,21 +40,23 @@
 	<div class="p-4 py-28 pt-0">
 		<div class="mx-auto flex max-w-[1400px] flex-col gap-10 lg:flex-row lg:gap-20">
 			<div class="flex-1">
-				<h2 class="mb-2 text-2xl">Overview</h2>
+				<h2 class="mb-8 text-2xl leading-[1.1] lg:text-3xl">Overview</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean
 					sed faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus
-					mollis laoreet porta. Ut fermentum nunc in purus faucibus convallis. Integer dictum urna
-					finibus ligula fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies.
-					Aliquam maximus, est et consequat suscipit, ante sem eleifend nunc, et pellentesque felis
-					nulla in sem. Cras accumsan, lectus id viverra luctus, mi risus elementum odio, quis
-					tristique turpis mauris eget urna. Aliquam viverra sapien a augue molestie, eget porttitor
-					erat faucibus. Nunc sit amet suscipit libero. Nullam iaculis bibendum venenatis. Mauris
-					feugiat massa consequat, posuere mi id, pellentesque sem.
+					mollis laoreet porta.
+				</p>
+				<p>
+					Ut fermentum nunc in purus faucibus convallis. Integer dictum urna finibus ligula
+					fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies. Aliquam maximus, est
+					et consequat suscipit, ante sem eleifend nunc, et pellentesque felis nulla in sem. Cras
+					accumsan, lectus id viverra luctus, mi risus elementum odio, quis tristique turpis mauris
+					eget urna. Aliquam viverra sapien a augue molestie, eget porttitor erat faucibus. Nunc sit
+					amet suscipit libero.
 				</p>
 			</div>
 			<div class="flex-1">
-				<h2 class="mb-2 text-2xl">Challenges</h2>
+				<h2 class="mb-8 text-2xl leading-[1.1] lg:text-3xl">Challenges</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean
 					sed faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus
@@ -67,8 +69,14 @@
 </section>
 <section id="content">
 	<div class="p-4 py-28 pt-0">
-		<h2 class="mb-8 text-center text-2xl leading-[1.1] lg:text-4xl">Strategy & Execution</h2>
 		<div class="mx-auto flex max-w-[1400px] flex-col gap-8">
+			<h2 class="text-2xl leading-[1.1] md:text-center lg:text-4xl">Strategy & Execution</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean sed
+				faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus mollis
+				laoreet porta. Ut fermentum nunc in purus faucibus convallis. Integer dictum urna finibus
+				ligula fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies.
+			</p>
 			<img src="https://placehold.co/1600x900/303030/808080" alt="Case Study" />
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean sed
@@ -90,9 +98,9 @@
 <section id="outcome">
 	<div class="mx-auto max-w-[1000px] p-4 py-28 pt-0">
 		<h2 class="mb-10 text-center text-2xl leading-[1.1] lg:text-4xl">Impact & Outcome</h2>
-		<p class="text-center text-xl font-medium md:text-2xl">
+		<div class="rounded-md bg-background p-6 py-20 text-center text-xl md:p-12 md:text-2xl">
 			200% increase in impressions, 150% increase in clicks, and a 100% increase in conversions.
-		</p>
+		</div>
 	</div>
 </section>
 <ContactSection />
