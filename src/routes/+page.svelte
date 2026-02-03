@@ -128,11 +128,11 @@
 			</p>
 		</div>
 		<div class="grid grid-cols-12 gap-4">
-			<div class="col-span-12 md:col-span-4">
+			<a href="/case-studies/example" class="col-span-12 md:col-span-4">
 				<div class="mb-4 aspect-4/3 bg-background"></div>
 				<h3 class="mb-1 text-xl">Project Name</h3>
 				<p class="opacity-50">UI UX Design</p>
-			</div>
+			</a>
 			<div class="col-span-12 md:col-span-8">
 				<div class="mb-4 aspect-4/3 bg-background"></div>
 				<h3 class="mb-1 text-xl">Project Name</h3>

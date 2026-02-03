@@ -10,25 +10,47 @@
 			and built to drive real results.
 		</p>
 	</div>
-	<div class="mx-auto max-w-[1600px]">
+	<div class="mx-auto aspect-[16/9] max-w-[1600px]">
 		<img src="https://placehold.co/1600x900/303030/808080" alt="Case Study" />
 	</div>
-	<div class="mx-auto flex w-full max-w-[1400px] justify-between gap-4">
+	<div class="mx-auto flex w-full max-w-[1400px] flex-col justify-between gap-4 lg:flex-row">
 		<div>
-			<div class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Client</div>
-			<div class="text-2xl">Acme Inc.</div>
+			<div class="mb-2 text-sm font-medium tracking-wider uppercase opacity-50">Client</div>
+			<div class="text-xl lg:text-2xl">Acme Inc.</div>
 		</div>
 		<div>
-			<div class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Scope</div>
-			<div class="text-2xl">Design. Development. Branding.</div>
+			<div class="mb-2 text-sm font-medium tracking-wider uppercase opacity-50">Scope</div>
+			<div class="text-xl lg:text-2xl">Design. Development. Branding.</div>
 		</div>
 		<div>
-			<div class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Timeline</div>
-			<div class="text-2xl">1 Month</div>
+			<div class="mb-2 text-sm font-medium tracking-wider uppercase opacity-50">Timeline</div>
+			<div class="text-xl lg:text-2xl">1 Month</div>
 		</div>
 		<div>
-			<div class="mb-4 text-sm font-medium tracking-wider uppercase opacity-50">Industry</div>
-			<div class="text-2xl">Enterprise SaaS</div>
+			<div class="mb-2 text-sm font-medium tracking-wider uppercase opacity-50">Industry</div>
+			<div class="text-xl lg:text-2xl">Enterprise SaaS</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="mx-auto flex max-w-[1400px] flex-col gap-10 p-4 py-28 pt-0 lg:flex-row lg:gap-20">
+		<div>
+			<h2 class="mb-2 text-2xl">Overview</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean sed
+				faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus mollis
+				laoreet porta. Ut fermentum nunc in purus faucibus convallis. Integer dictum urna finibus
+				ligula fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies.
+			</p>
+		</div>
+		<div>
+			<h2 class="mb-2 text-2xl">Challenges</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lobortis massa. Aenean sed
+				faucibus odio. Curabitur tempus enim nisl, at auctor dui bibendum sit amet. Phasellus mollis
+				laoreet porta. Ut fermentum nunc in purus faucibus convallis. Integer dictum urna finibus
+				ligula fermentum luctus. Aliquam faucibus enim suscipit placerat ultricies.
+			</p>
 		</div>
 	</div>
 </section>
