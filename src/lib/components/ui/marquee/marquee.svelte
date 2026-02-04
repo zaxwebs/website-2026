@@ -2,9 +2,6 @@
 	import { cn } from '$lib/utils.js';
 	import { onMount, onDestroy } from 'svelte';
 	import gsap from 'gsap';
-	import { Observer } from 'gsap/dist/Observer';
-
-	gsap.registerPlugin(Observer);
 
 	interface Props {
 		/** Custom CSS class(es) */
@@ -33,10 +30,9 @@
 
 	let containerEl: HTMLElement;
 	let tl: gsap.core.Timeline | null = null;
-	let observer: Observer | null = null;
 	let speedTween: gsap.core.Tween | null = null;
-	let lastScrollTime = 0;
-	const THROTTLE_MS = 50;
+	let lastScrollY = 0;
+	let scrollHandler: (() => void) | null = null;
 
 	onMount(() => {
 		const items = gsap.utils.toArray<HTMLElement>(containerEl.querySelectorAll('.marquee-item'));
@@ -52,57 +48,52 @@
 			speed: speed
 		});
 
-		observer = Observer.create({
-			onChangeY(self) {
-				// Throttle scroll events
-				const now = performance.now();
-				if (now - lastScrollTime < THROTTLE_MS) return;
-				lastScrollTime = now;
+		lastScrollY = window.scrollY;
 
-				// Cache scroll values
-				const scrollTop = window.scrollY;
-				const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+		scrollHandler = () => {
+			const currentScrollY = window.scrollY;
+			const deltaY = currentScrollY - lastScrollY;
+			lastScrollY = currentScrollY;
 
-				// Don't speed up if page can't scroll in that direction
-				if ((self.deltaY < 0 && scrollTop <= 0) || (self.deltaY > 0 && scrollTop >= maxScroll)) {
-					return;
-				}
+			// Only react if there's actual scroll movement
+			if (deltaY === 0) return;
 
-				let factor = scrollFactor;
-				if (self.deltaY < 0) {
-					factor *= -1;
-				}
-
-				// Kill existing tween and reuse instead of creating new timeline
-				if (speedTween) speedTween.kill();
-
-				speedTween = gsap.to(tl, {
-					timeScale: factor * scrollFactor,
-					duration: 0.2,
-					ease: 'none',
-					overwrite: true,
-					onComplete: () => {
-						speedTween = gsap.to(tl, {
-							timeScale: factor / scrollFactor,
-							duration: 1,
-							ease: 'none',
-							delay: 0.3
-						});
-					}
-				});
+			let factor = scrollFactor;
+			if (deltaY < 0) {
+				factor *= -1;
 			}
-		});
+
+			// Kill existing tween
+			if (speedTween) speedTween.kill();
+
+			speedTween = gsap.to(tl, {
+				timeScale: factor * scrollFactor,
+				duration: 0.2,
+				ease: 'none',
+				overwrite: true,
+				onComplete: () => {
+					speedTween = gsap.to(tl, {
+						timeScale: factor / scrollFactor,
+						duration: 1,
+						ease: 'none',
+						delay: 0.3
+					});
+				}
+			});
+		};
+
+		window.addEventListener('scroll', scrollHandler, { passive: true });
 	});
 
 	onDestroy(() => {
+		if (scrollHandler) {
+			window.removeEventListener('scroll', scrollHandler);
+		}
 		if (speedTween) {
 			speedTween.kill();
 		}
 		if (tl) {
 			tl.kill();
-		}
-		if (observer) {
-			observer.kill();
 		}
 	});
 
