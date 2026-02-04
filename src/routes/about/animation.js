@@ -26,7 +26,7 @@ const animateIntro = () => {
         },
         opacity: 1,
         stagger: 0.1,
-        ease: "steps(1)"
+        ease: "steps(1)",
     });
 }
 
@@ -50,6 +50,6 @@ const animateTools = () => {
 }
 
 export const runPageAnimations = () => {
-    animateIntro();
-    animateTools();
+    animateIntro()
+    animateTools()
 }

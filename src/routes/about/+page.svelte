@@ -40,15 +40,15 @@
          to-[#BE08D0] blur-[100px]
          md:aspect-[4/2]"
 	></div>
-	<Marquee duration={15} class="absolute bottom-10 -z-10 w-full">
-		<div>Designer.</div>
-		<div>Developer.</div>
-		<div>Marketer.</div>
-		<div>Builder.</div>
-		<div>Creator.</div>
-		<div>Maker.</div>
-		<div>Strategist.</div>
-		<div>Technologist.</div>
+	<Marquee speed={1} gap={100} class="absolute bottom-10 -z-10 w-full">
+		<div class="marquee-item">Designer.</div>
+		<div class="marquee-item">Developer.</div>
+		<div class="marquee-item">Marketer.</div>
+		<div class="marquee-item">Builder.</div>
+		<div class="marquee-item">Creator.</div>
+		<div class="marquee-item">Maker.</div>
+		<div class="marquee-item">Strategist.</div>
+		<div class="marquee-item">Technologist.</div>
 	</Marquee>
 </section>
 <section id="intro">
@@ -69,13 +69,13 @@
 				<div class="flex-1 rounded-md bg-background p-4 py-6">
 					<img class="mb-10 w-24" src="/images/cssda.svg" alt="CSS Design Awards" />
 					<div class="flex gap-2">
-						<LogoBase class="w-4 text-orange-500" /> Best UI Design
+						<LogoBase class="award-symbol w-4 text-orange-500" /> Best UI Design
 					</div>
 				</div>
 				<div class="flex-1 rounded-md bg-background p-4 py-6">
 					<img class="mb-10 w-24" src="/images/cssda.svg" alt="CSS Design Awards" />
 					<div class="flex gap-2">
-						<LogoBase class="w-4 text-purple-500" /> Best User Experience
+						<LogoBase class="award-symbol w-4 text-purple-500" /> Best User Experience
 					</div>
 				</div>
 			</div>
