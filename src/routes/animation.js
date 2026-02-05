@@ -6,8 +6,6 @@ gsap.registerPlugin(ScrollTrigger);
 export function animateAbout() {
     const cards = document.querySelectorAll("#about .card");
 
-    console.log(cards);
-
     cards.forEach((card) => {
         const img = card.querySelector("img");
         gsap.from(img, {
