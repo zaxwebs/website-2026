@@ -4,9 +4,9 @@ import { SplitText } from "gsap/dist/SplitText";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
-const animateIntro = () => {
-    const introSection = document.querySelector("#intro");
-    const paragraph = introSection?.querySelector("p");
+const wordRevealOnScroll = (selector, parentSelector) => {
+    const section = document.querySelector(parentSelector);
+    const paragraph = section?.querySelector(selector);
 
     if (!paragraph) return;
 
@@ -19,7 +19,7 @@ const animateIntro = () => {
     // Animate each word as user scrolls through section
     gsap.to(split.words, {
         scrollTrigger: {
-            trigger: introSection,
+            trigger: section,
             start: "top 90%",
             end: "bottom 60%",
             scrub: true,
@@ -52,6 +52,6 @@ const animateTools = () => {
 }
 
 export const runPageAnimations = () => {
-    animateIntro()
+    wordRevealOnScroll(".animate-word-reveal", "#intro")
     animateTools()
 }

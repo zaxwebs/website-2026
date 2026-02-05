@@ -52,7 +52,9 @@
 	</Marquee>
 </section>
 <section id="intro">
-	<p class="mx-auto max-w-[1400px] p-4 py-28 text-xl leading-snug tracking-tight md:text-3xl">
+	<p
+		class="animate-word-reveal mx-auto max-w-[1400px] p-4 py-28 text-xl leading-snug tracking-tight md:text-3xl"
+	>
 		I bring over eight years of experience delivering digital solutions for clients worldwide. I've
 		worked with startups, established businesses, and multinational organizations across diverse
 		industries. With experience spanning multiple roles, I approach projects with a comprehensive,
