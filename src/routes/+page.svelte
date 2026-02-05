@@ -2,6 +2,12 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import LogoBase from '$lib/components/ui/LogoBase.svelte';
 	import ContactSection from '$lib/components/ContactSection.svelte';
+	import { runPageAnimations } from './animation.js';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		runPageAnimations();
+	});
 </script>
 
 <svelte:head>
@@ -56,7 +62,7 @@
 		</div>
 		<div class="mt-16 flex flex-col gap-4 md:flex-row">
 			<div
-				class="group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+				class="card group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
 			>
 				<div class="p-4">
 					<div class="mb-3 flex items-center gap-2">
@@ -79,7 +85,7 @@
 				></div>
 			</div>
 			<div
-				class="group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+				class="card group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
 			>
 				<div class="p-4">
 					<div class="mb-3 flex items-center gap-2">
@@ -97,7 +103,7 @@
 				/>
 			</div>
 			<div
-				class="group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+				class="card group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
 			>
 				<div class="p-4">
 					<div class="mb-3 flex items-center gap-2">
