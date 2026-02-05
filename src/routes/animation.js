@@ -1,8 +1,3 @@
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
-
 export function animateAbout() {
     const cards = document.querySelectorAll("#about .card");
 
