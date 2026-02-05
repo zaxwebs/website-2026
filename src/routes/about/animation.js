@@ -30,6 +30,8 @@ const animateIntro = () => {
     });
 }
 
+
+
 const animateTools = () => {
     const containers = document.querySelectorAll(".tool-container");
 

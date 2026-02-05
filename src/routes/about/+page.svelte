@@ -40,7 +40,7 @@
          to-[#BE08D0] blur-[100px]
          md:aspect-[4/2]"
 	></div>
-	<Marquee speed={1} gap={100} class="absolute bottom-10 -z-10 w-full">
+	<Marquee duration={40} gap={100} class="absolute bottom-10 -z-10 w-full">
 		<div class="marquee-item">Designer.</div>
 		<div class="marquee-item">Developer.</div>
 		<div class="marquee-item">Marketer.</div>
