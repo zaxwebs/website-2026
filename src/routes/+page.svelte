@@ -62,11 +62,11 @@
 		</div>
 		<div class="mt-16 flex flex-col gap-4 md:flex-row">
 			<div
-				class="card group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+				class="card relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
 			>
 				<div class="p-4">
 					<div class="mb-3 flex items-center gap-2">
-						<LogoBase class="w-4 text-orange-500 group-hover:animate-spin" />
+						<LogoBase class="w-4 text-orange-500" />
 						<h3 class=" text-xl">Design</h3>
 					</div>
 					<p>Interfaces that feel effortless, engage users, and increase conversions.</p>
@@ -85,11 +85,11 @@
 				></div>
 			</div>
 			<div
-				class="card group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+				class="card relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
 			>
 				<div class="p-4">
 					<div class="mb-3 flex items-center gap-2">
-						<LogoBase class="w-4 text-pink-500 group-hover:animate-spin" />
+						<LogoBase class="w-4 text-pink-500 " />
 						<h3 class=" text-xl">Development</h3>
 					</div>
 					<p>
@@ -103,11 +103,11 @@
 				/>
 			</div>
 			<div
-				class="card group relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
+				class="card relative isolate flex flex-1 flex-col justify-between overflow-hidden rounded-md bg-background"
 			>
 				<div class="p-4">
 					<div class="mb-3 flex items-center gap-2">
-						<LogoBase class="w-4 text-purple-500 group-hover:animate-spin" />
+						<LogoBase class="w-4 text-purple-500" />
 						<h3 class=" text-xl">Growth</h3>
 					</div>
 					<p>
