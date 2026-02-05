@@ -6,6 +6,27 @@
 	let menuButtonRef: HTMLButtonElement | null = $state(null);
 	let firstLinkRef: HTMLAnchorElement | null = $state(null);
 
+	// Scroll-based header visibility
+	let isHeaderHidden = $state(false);
+	let lastScrollY = $state(0);
+
+	function handleScroll() {
+		const currentScrollY = window.scrollY;
+		const scrollDelta = currentScrollY - lastScrollY;
+
+		// Only update if scroll delta is significant (prevents jitter)
+		if (Math.abs(scrollDelta) > 10) {
+			if (scrollDelta > 0 && currentScrollY > 60) {
+				// Scrolling down & past header height
+				isHeaderHidden = true;
+			} else if (scrollDelta < 0) {
+				// Scrolling up
+				isHeaderHidden = false;
+			}
+			lastScrollY = currentScrollY;
+		}
+	}
+
 	function openMenu() {
 		isMenuOpen = true;
 		document.body.style.overflow = 'hidden';
@@ -41,9 +62,12 @@
 	];
 </script>
 
-<svelte:window onkeydown={isMenuOpen ? handleKeydown : undefined} />
+<svelte:window onkeydown={isMenuOpen ? handleKeydown : undefined} onscroll={handleScroll} />
 
-<header class="fixed top-0 right-0 left-0 z-50 bg-black/90 backdrop-blur-md">
+<header
+	class="fixed top-0 right-0 left-0 z-50 bg-black/90 backdrop-blur-md transition-transform duration-300"
+	class:-translate-y-full={isHeaderHidden && !isMenuOpen}
+>
 	<div class="mx-auto max-w-[1400px]">
 		<div class="flex items-center justify-between gap-4 px-4 py-2">
 			<!-- Logo -->
