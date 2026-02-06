@@ -16,7 +16,7 @@
 
 <section
 	id="hero"
-	class="relative flex min-h-[calc(100dvh-56px)] flex-col justify-between overflow-hidden"
+	class="relative flex min-h-[calc(100svh-56px)] flex-col justify-between overflow-hidden"
 >
 	<div
 		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 pt-[5vh] text-center md:gap-5 lg:pt-20"
