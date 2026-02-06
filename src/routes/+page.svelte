@@ -133,13 +133,23 @@
 		</div>
 		<div class="grid grid-cols-12 gap-4">
 			<a href="/case-studies/example" class="col-span-12 md:col-span-4">
-				<div class="mb-4 aspect-4/3 bg-background"></div>
-				<h3 class="mb-1 text-xl">Project Name</h3>
-				<p class="opacity-50">UI UX Design</p>
+				<div class="mb-4 aspect-4/3 bg-background">
+					<img class="h-full w-full object-cover" src="/images/work/perfume/cover.avif" alt="" />
+				</div>
+				<h3 class="mb-1 text-xl">Strategic Branding for a Fragrance House</h3>
+				<p class="opacity-50">Branding</p>
 			</a>
 			<div class="col-span-12 md:col-span-8">
-				<div class="mb-4 aspect-4/3 bg-background"></div>
-				<h3 class="mb-1 text-xl">Project Name</h3>
+				<div class="mb-4 aspect-4/3 bg-background">
+					<img
+						class="h-full w-full object-cover"
+						src="/images/work/industrial-equipment/cover.avif"
+						alt=""
+					/>
+				</div>
+				<h3 class="mb-1 text-xl">
+					Website for an Industrial Equipment Technology Solutions Provider
+				</h3>
 				<p class="opacity-50">UI UX Design</p>
 			</div>
 
