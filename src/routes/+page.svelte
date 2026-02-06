@@ -2,7 +2,7 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import LogoBase from '$lib/components/ui/LogoBase.svelte';
 	import ContactSection from '$lib/components/ContactSection.svelte';
-	import { runPageAnimations } from '$lib/animation.js';
+	import { runPageAnimations } from './animation.js';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
