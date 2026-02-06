@@ -6,7 +6,8 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		runPageAnimations();
+		const cleanup = runPageAnimations();
+		return cleanup;
 	});
 </script>
 

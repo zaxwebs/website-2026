@@ -5,7 +5,8 @@
 	import { runPageAnimations } from './animation.js';
 
 	onMount(() => {
-		runPageAnimations();
+		const cleanup = runPageAnimations();
+		return cleanup;
 	});
 </script>
 
