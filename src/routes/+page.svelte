@@ -19,7 +19,7 @@
 	class="relative flex min-h-[calc(100dvh-56px)] flex-col justify-between overflow-hidden"
 >
 	<div
-		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 pt-32 text-center md:gap-5 lg:pt-20"
+		class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 pt-[5vh] text-center md:gap-5 lg:pt-20"
 	>
 		<h1 class="text-3xl leading-[1.1] tracking-tight md:text-4xl lg:text-6xl">
 			Helping Businesses Excel with Design, Development & Marketing
