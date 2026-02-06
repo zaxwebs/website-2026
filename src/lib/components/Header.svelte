@@ -73,7 +73,7 @@
 			<!-- Logo -->
 			<a href="/" class="group flex items-center gap-2">
 				<LogoBase class="w-4 text-pink-500 group-hover:animate-spin" />
-				<img class="h-6" src="/images/typographic.svg" alt="Zack Webster" />
+				<img class="w-[120px]" src="/images/typographic.svg" alt="Zack Webster" />
 			</a>
 
 			<!-- Desktop Navigation -->
