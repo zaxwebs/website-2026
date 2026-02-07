@@ -134,25 +134,35 @@
 			</p>
 		</div>
 		<div class="grid grid-cols-12 gap-4">
-			<WorkCard
-				class="col-span-12 md:col-span-4"
-				href="/case-studies/example"
-				title="Strategic Branding for a Fragrance House"
-				category="Branding"
-				image="/images/work/perfume/cover.avif"
-			/>
-			<WorkCard
-				class="col-span-12 md:col-span-8"
-				title="Website for an Industrial Equipment Technology Solutions Provider"
-				category="UI UX Design"
-				image="/images/work/industrial-equipment/cover.avif"
-			/>
+			<div class="col-span-12 md:col-span-4">
+				<WorkCard
+					href="/case-studies/example"
+					title="Strategic Branding for a Fragrance House"
+					category="Branding"
+					image="/images/work/perfume/cover.avif"
+				/>
+			</div>
+			<div class="col-span-12 md:col-span-8">
+				<WorkCard
+					title="Website for an Industrial Equipment Technology Solutions Provider"
+					category="UI UX Design"
+					image="/images/work/industrial-equipment/cover.avif"
+				/>
+			</div>
 
-			<WorkCard class="col-span-12 md:col-span-8" title="Project Name" category="UI UX Design" />
-			<WorkCard class="col-span-12 md:col-span-4" title="Project Name" category="UI UX Design" />
+			<div class="col-span-12 md:col-span-8">
+				<WorkCard title="Project Name" category="UI UX Design" />
+			</div>
+			<div class="col-span-12 md:col-span-4">
+				<WorkCard title="Project Name" category="UI UX Design" />
+			</div>
 
-			<WorkCard class="col-span-12 md:col-span-4" title="Project Name" category="UI UX Design" />
-			<WorkCard class="col-span-12 md:col-span-8" title="Project Name" category="UI UX Design" />
+			<div class="col-span-12 md:col-span-4">
+				<WorkCard title="Project Name" category="UI UX Design" />
+			</div>
+			<div class="col-span-12 md:col-span-8">
+				<WorkCard title="Project Name" category="UI UX Design" />
+			</div>
 		</div>
 	</div>
 </section>
