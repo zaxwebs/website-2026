@@ -2,6 +2,7 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import LogoBase from '$lib/components/ui/LogoBase.svelte';
 	import ContactSection from '$lib/components/ContactSection.svelte';
+	import WorkCard from '$lib/components/WorkCard.svelte';
 	import { runPageAnimations } from './animation.js';
 	import { onMount } from 'svelte';
 
@@ -133,48 +134,25 @@
 			</p>
 		</div>
 		<div class="grid grid-cols-12 gap-4">
-			<a href="/case-studies/example" class="col-span-12 md:col-span-4">
-				<div class="mb-4 aspect-4/3 bg-background">
-					<img class="h-full w-full object-cover" src="/images/work/perfume/cover.avif" alt="" />
-				</div>
-				<h3 class="mb-1 text-xl">Strategic Branding for a Fragrance House</h3>
-				<p class="opacity-50">Branding</p>
-			</a>
-			<div class="col-span-12 md:col-span-8">
-				<div class="mb-4 aspect-4/3 bg-background">
-					<img
-						class="h-full w-full object-cover"
-						src="/images/work/industrial-equipment/cover.avif"
-						alt=""
-					/>
-				</div>
-				<h3 class="mb-1 text-xl">
-					Website for an Industrial Equipment Technology Solutions Provider
-				</h3>
-				<p class="opacity-50">UI UX Design</p>
-			</div>
+			<WorkCard
+				class="col-span-12 md:col-span-4"
+				href="/case-studies/example"
+				title="Strategic Branding for a Fragrance House"
+				category="Branding"
+				image="/images/work/perfume/cover.avif"
+			/>
+			<WorkCard
+				class="col-span-12 md:col-span-8"
+				title="Website for an Industrial Equipment Technology Solutions Provider"
+				category="UI UX Design"
+				image="/images/work/industrial-equipment/cover.avif"
+			/>
 
-			<div class="col-span-12 md:col-span-8">
-				<div class="mb-4 aspect-4/3 bg-background"></div>
-				<h3 class="mb-1 text-xl">Project Name</h3>
-				<p class="opacity-50">UI UX Design</p>
-			</div>
-			<div class="col-span-12 md:col-span-4">
-				<div class="mb-4 aspect-4/3 bg-background"></div>
-				<h3 class="mb-1 text-xl">Project Name</h3>
-				<p class="opacity-50">UI UX Design</p>
-			</div>
+			<WorkCard class="col-span-12 md:col-span-8" title="Project Name" category="UI UX Design" />
+			<WorkCard class="col-span-12 md:col-span-4" title="Project Name" category="UI UX Design" />
 
-			<div class="col-span-12 md:col-span-4">
-				<div class="mb-4 aspect-4/3 bg-background"></div>
-				<h3 class="mb-1 text-xl">Project Name</h3>
-				<p class="opacity-50">UI UX Design</p>
-			</div>
-			<div class="col-span-12 md:col-span-8">
-				<div class="mb-4 aspect-4/3 bg-background"></div>
-				<h3 class="mb-1 text-xl">Project Name</h3>
-				<p class="opacity-50">UI UX Design</p>
-			</div>
+			<WorkCard class="col-span-12 md:col-span-4" title="Project Name" category="UI UX Design" />
+			<WorkCard class="col-span-12 md:col-span-8" title="Project Name" category="UI UX Design" />
 		</div>
 	</div>
 </section>
