@@ -130,7 +130,7 @@
 		<div class="mb-24 flex flex-col justify-between gap-4 xl:flex-row">
 			<h2 class="text-2xl leading-[1.1] tracking-tight lg:text-4xl">Featured Work</h2>
 			<p class="max-w-lg">
-				A curated selection of digital work across design and development & more.
+				A curated selection of work & explorations across design and development & more.
 			</p>
 		</div>
 		<div class="grid grid-cols-12 gap-4">

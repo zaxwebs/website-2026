@@ -25,6 +25,7 @@ const animateAbout = () => {
                 duration: 0.6,
                 y: 100,
                 x: -200,
+                scale: 0.5,
                 ease: "power3.out"
             });
         });
