@@ -102,7 +102,7 @@
 			</div>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/monogram.avif"
+				src="/images/work/perfume-brand/mockup-bottle.avif"
 				alt="Monogram design for the fragrance brand"
 			/>
 
@@ -114,16 +114,19 @@
 			/>
 
 			<h3 class="text-2xl">Color Palette</h3>
-			<img
-				class="w-full rounded-md"
-				src="/images/work/perfume-brand/primary-colors.avif"
-				alt="Primary color palette for the brand identity"
-			/>
-			<img
-				class="w-full rounded-md"
-				src="/images/work/perfume-brand/secondary-colors.avif"
-				alt="Secondary color palette and accent tones"
-			/>
+
+			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+				<img
+					class="w-full rounded-md"
+					src="/images/work/perfume-brand/primary-colors.avif"
+					alt="Primary color palette for the brand identity"
+				/>
+				<img
+					class="w-full rounded-md"
+					src="/images/work/perfume-brand/secondary-colors.avif"
+					alt="Logo lockup variations and usage guidelines"
+				/>
+			</div>
 
 			<h3 class="text-2xl">Packaging Direction</h3>
 			<p>
