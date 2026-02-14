@@ -70,7 +70,7 @@
 </section>
 <section id="content">
 	<div class="p-4 py-28 pt-0">
-		<div class="mx-auto flex max-w-[900px] flex-col gap-8">
+		<div class="mx-auto flex max-w-[1200px] flex-col gap-8">
 			<h2 class="text-2xl leading-[1.1] tracking-tight lg:text-4xl">Strategy & Execution</h2>
 			<p>
 				We began with positioning workshops to define audience segments, emotional keywords, and
