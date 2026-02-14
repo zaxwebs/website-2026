@@ -79,21 +79,73 @@
 			</p>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/cover.avif"
+				src="/images/work/perfume-brand/gold.avif"
 				alt="Moodboard and visual direction for fragrance branding"
 			/>
+
+			<h3 class="text-2xl">Visual Identity</h3>
 			<p>
 				From there, we built a refined identity system across wordmark usage rules, typographic
-				hierarchy, color direction, and art direction principles. Packaging concepts were developed
-				to highlight individual scent personalities while maintaining family consistency across the
-				lineup.
+				hierarchy, color direction, and art direction principles.
 			</p>
-			<h3 class="text-2xl">Rollout</h3>
+			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+				<img
+					class="w-full rounded-md"
+					src="/images/work/perfume-brand/logo-and-monogram.avif"
+					alt="Logo and monogram design for the fragrance brand"
+				/>
+				<img
+					class="w-full rounded-md"
+					src="/images/work/perfume-brand/logo-lockups.avif"
+					alt="Logo lockup variations and usage guidelines"
+				/>
+			</div>
+
+			<h3 class="text-2xl">Typography</h3>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/cover.avif"
-				alt="Brand application examples across digital and packaging"
+				src="/images/work/perfume-brand/typeface.avif"
+				alt="Typeface selection and typographic hierarchy"
 			/>
+
+			<h3 class="text-2xl">Color Palette</h3>
+			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+				<img
+					class="w-full rounded-md"
+					src="/images/work/perfume-brand/primary-color.avif"
+					alt="Primary color palette for the brand identity"
+				/>
+				<img
+					class="w-full rounded-md"
+					src="/images/work/perfume-brand/secondary-color.avif"
+					alt="Secondary color palette and accent tones"
+				/>
+			</div>
+
+			<h3 class="text-2xl">Packaging Direction</h3>
+			<p>
+				Packaging concepts were developed to highlight individual scent personalities while
+				maintaining family consistency across the lineup.
+			</p>
+			<img
+				class="w-full rounded-md"
+				src="/images/work/perfume-brand/packaging.avif"
+				alt="Packaging design concepts for the fragrance collection"
+			/>
+
+			<h3 class="text-2xl">Rollout</h3>
+			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+				<img
+					class="w-full rounded-md"
+					src="/images/work/perfume-brand/bb-cover.avif"
+					alt="Brand book cover design"
+				/>
+				<img
+					class="w-full rounded-md"
+					src="/images/work/perfume-brand/sm.avif"
+					alt="Social media templates and brand application"
+				/>
+			</div>
 			<p>
 				The final delivery included a practical brand playbook with reusable templates for social,
 				ecommerce banners, and campaign layouts so the team can launch new collections faster
