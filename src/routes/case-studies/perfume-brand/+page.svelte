@@ -109,18 +109,16 @@
 			/>
 
 			<h3 class="text-2xl">Color Palette</h3>
-			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-				<img
-					class="w-full rounded-md"
-					src="/images/work/perfume-brand/primary-color.avif"
-					alt="Primary color palette for the brand identity"
-				/>
-				<img
-					class="w-full rounded-md"
-					src="/images/work/perfume-brand/secondary-color.avif"
-					alt="Secondary color palette and accent tones"
-				/>
-			</div>
+			<img
+				class="w-full rounded-md"
+				src="/images/work/perfume-brand/primary-color.avif"
+				alt="Primary color palette for the brand identity"
+			/>
+			<img
+				class="w-full rounded-md"
+				src="/images/work/perfume-brand/secondary-color.avif"
+				alt="Secondary color palette and accent tones"
+			/>
 
 			<h3 class="text-2xl">Packaging Direction</h3>
 			<p>
@@ -155,7 +153,7 @@
 	</div>
 </section>
 <section id="outcome">
-	<div class="mx-auto max-w-[1000px] p-4 py-32 pt-0">
+	<div class="mx-auto max-w-[900px] p-4 py-32 pt-0">
 		<div class="rounded-md bg-background p-6 py-40 text-center text-xl md:p-12 md:text-2xl">
 			<h2 class="mb-12 text-center text-2xl leading-[1.1] tracking-tight lg:text-4xl">
 				Impact & Outcome
