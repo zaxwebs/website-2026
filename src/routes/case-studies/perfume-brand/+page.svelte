@@ -15,7 +15,7 @@
 				artistic, and commercially scalable — now launched and active in-market.
 			</p>
 		</div>
-		<div class="mx-auto aspect-[16/9] max-w-[1600px] overflow-hidden rounded-md">
+		<div class="mx-auto aspect-[16/9] max-w-[1400px] overflow-hidden rounded-md">
 			<img
 				class="h-full w-full object-cover"
 				src="/images/work/perfume/cover.avif"
@@ -25,7 +25,7 @@
 		<div class="mx-auto flex w-full max-w-[1400px] flex-col justify-between gap-4 lg:flex-row">
 			<div>
 				<div class="mb-2 text-sm font-medium tracking-wider uppercase opacity-50">Client</div>
-				<div class="text-xl lg:text-2xl">Independent Fragrance House</div>
+				<div class="text-xl lg:text-2xl">Fragrance House</div>
 			</div>
 			<div>
 				<div class="mb-2 text-sm font-medium tracking-wider uppercase opacity-50">Scope</div>
@@ -44,9 +44,9 @@
 </section>
 <section>
 	<div class="p-4 py-28 pt-0">
-		<div class="mx-auto flex max-w-[1400px] flex-col gap-10 lg:flex-row lg:gap-20">
+		<div class="mx-auto max-w-[900px] space-y-12">
 			<div class="flex-1">
-				<h2 class="mb-8 text-2xl leading-[1.1] tracking-tight lg:text-3xl">Overview</h2>
+				<h2 class="mb-8 text-2xl leading-[1.1] tracking-tight lg:text-4xl">Overview</h2>
 				<p>
 					This project translated exceptional product quality into a unified brand presence across
 					packaging, social media, and retail touchpoints. The direction was rooted in modern
@@ -58,7 +58,7 @@
 				</p>
 			</div>
 			<div class="flex-1">
-				<h2 class="mb-8 text-2xl leading-[1.1] tracking-tight lg:text-3xl">Challenges</h2>
+				<h2 class="mb-8 text-2xl leading-[1.1] tracking-tight lg:text-4xl">Challenges</h2>
 				<p>
 					The previous identity varied from one channel to the next, and naming/visual treatments
 					competed for attention. The challenge was creating a system that felt elevated and ownable
@@ -70,10 +70,8 @@
 </section>
 <section id="content">
 	<div class="p-4 py-28 pt-0">
-		<div class="mx-auto flex max-w-[1400px] flex-col gap-8">
-			<h2 class="text-2xl leading-[1.1] tracking-tight md:text-center lg:text-4xl">
-				Strategy & Execution
-			</h2>
+		<div class="mx-auto flex max-w-[900px] flex-col gap-8">
+			<h2 class="text-2xl leading-[1.1] tracking-tight lg:text-4xl">Strategy & Execution</h2>
 			<p>
 				We began with positioning workshops to define audience segments, emotional keywords, and
 				category whitespace. These insights shaped a brand platform with messaging pillars applied
@@ -105,13 +103,15 @@
 	</div>
 </section>
 <section id="outcome">
-	<div class="mx-auto max-w-[1000px] p-4 py-28 pt-0">
-		<h2 class="mb-10 text-center text-2xl leading-[1.1] tracking-tight lg:text-4xl">
-			Impact & Outcome
-		</h2>
-		<div class="rounded-md bg-background p-6 py-20 text-center text-xl md:p-12 md:text-2xl">
-			The brand is now live in the market with a cohesive premium identity, faster campaign
-			execution, and stronger product recognition across digital and retail channels.
+	<div class="mx-auto max-w-[1000px] p-4 py-32 pt-0">
+		<div class="rounded-md bg-background p-6 py-40 text-center text-xl md:p-12 md:text-2xl">
+			<h2 class="mb-12 text-center text-2xl leading-[1.1] tracking-tight lg:text-4xl">
+				Impact & Outcome
+			</h2>
+			<p>
+				The brand is now live in the market with a cohesive premium identity, faster campaign
+				execution, and stronger product recognition across digital and retail channels.
+			</p>
 		</div>
 	</div>
 </section>

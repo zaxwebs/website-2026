@@ -136,7 +136,7 @@
 		<div class="grid grid-cols-12 gap-4">
 			<div class="col-span-12 md:col-span-4">
 				<WorkCard
-					href="/case-studies/strategic-branding-fragrance-house"
+					href="/case-studies/perfume-brand"
 					title="Strategic Branding for a Fragrance House"
 					category="Branding"
 					image="/images/work/perfume/cover.avif"
