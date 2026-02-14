@@ -79,7 +79,7 @@
 			</p>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume/cover.avif"
+				src="/images/work/perfume-brand/cover.avif"
 				alt="Moodboard and visual direction for fragrance branding"
 			/>
 			<p>
@@ -91,7 +91,7 @@
 			<h3 class="text-2xl">Rollout</h3>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume/cover.avif"
+				src="/images/work/perfume-brand/cover.avif"
 				alt="Brand application examples across digital and packaging"
 			/>
 			<p>
