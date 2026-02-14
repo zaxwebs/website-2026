@@ -18,7 +18,7 @@
 		<div class="mx-auto aspect-[16/9] max-w-[1400px] overflow-hidden rounded-md">
 			<img
 				class="h-full w-full object-cover"
-				src="/images/work/perfume/cover.avif"
+				src="/images/work/perfume-brand/cover.avif"
 				alt="Branding concept visuals for a fragrance house"
 			/>
 		</div>

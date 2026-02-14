@@ -139,7 +139,7 @@
 					href="/case-studies/perfume-brand"
 					title="Strategic Branding for a Fragrance House"
 					category="Branding"
-					image="/images/work/perfume/cover.avif"
+					image="/images/work/perfume-brand/cover.avif"
 				/>
 			</div>
 			<div class="col-span-12 md:col-span-8">
