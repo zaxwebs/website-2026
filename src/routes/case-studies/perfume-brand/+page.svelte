@@ -79,8 +79,9 @@
 			</p>
 			<img
 				class="w-full rounded-md"
+				loading="lazy"
 				src="/images/work/perfume-brand/desert.avif"
-				alt="Logo lockup variations and usage guidelines"
+				alt="Desert-inspired moodboard and visual direction for the brand"
 			/>
 
 			<h3 class="text-2xl">Visual Identity</h3>
@@ -91,24 +92,28 @@
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 				<img
 					class="w-full rounded-md"
+					loading="lazy"
 					src="/images/work/perfume-brand/logo-and-monogram.avif"
 					alt="Logo and monogram design for the fragrance brand"
 				/>
 				<img
 					class="w-full rounded-md"
+					loading="lazy"
 					src="/images/work/perfume-brand/logo-lockups.avif"
 					alt="Logo lockup variations and usage guidelines"
 				/>
 			</div>
 			<img
 				class="w-full rounded-md"
+				loading="lazy"
 				src="/images/work/perfume-brand/bottle.avif"
-				alt="Packaging design concepts for the fragrance collection"
+				alt="Perfume bottle design showcasing brand identity"
 			/>
 
 			<h3 class="text-2xl">Typography</h3>
 			<img
 				class="w-full rounded-md"
+				loading="lazy"
 				src="/images/work/perfume-brand/typeface.avif"
 				alt="Typeface selection and typographic hierarchy"
 			/>
@@ -118,13 +123,15 @@
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 				<img
 					class="w-full rounded-md"
+					loading="lazy"
 					src="/images/work/perfume-brand/primary-colors.avif"
 					alt="Primary color palette for the brand identity"
 				/>
 				<img
 					class="w-full rounded-md"
+					loading="lazy"
 					src="/images/work/perfume-brand/secondary-colors.avif"
-					alt="Logo lockup variations and usage guidelines"
+					alt="Secondary color palette and accent tones"
 				/>
 			</div>
 
@@ -135,6 +142,7 @@
 			</p>
 			<img
 				class="w-full rounded-md"
+				loading="lazy"
 				src="/images/work/perfume-brand/packaging.avif"
 				alt="Packaging design concepts for the fragrance collection"
 			/>
