@@ -102,7 +102,7 @@
 			</div>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/packaging.avif"
+				src="/images/work/perfume-brand/bottle.avif"
 				alt="Packaging design concepts for the fragrance collection"
 			/>
 
@@ -135,7 +135,7 @@
 			</p>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/mockup-bottle.avif"
+				src="/images/work/perfume-brand/packaging.avif"
 				alt="Packaging design concepts for the fragrance collection"
 			/>
 
