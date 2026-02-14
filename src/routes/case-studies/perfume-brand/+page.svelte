@@ -102,8 +102,8 @@
 			</div>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/mockup-bottle.avif"
-				alt="Monogram design for the fragrance brand"
+				src="/images/work/perfume-brand/packaging.avif"
+				alt="Packaging design concepts for the fragrance collection"
 			/>
 
 			<h3 class="text-2xl">Typography</h3>
@@ -135,23 +135,11 @@
 			</p>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/packaging.avif"
+				src="/images/work/perfume-brand/mockup-bottle.avif"
 				alt="Packaging design concepts for the fragrance collection"
 			/>
 
 			<h3 class="text-2xl">Rollout</h3>
-			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-				<img
-					class="w-full rounded-md"
-					src="/images/work/perfume-brand/bb-cover.avif"
-					alt="Brand book cover design"
-				/>
-				<img
-					class="w-full rounded-md"
-					src="/images/work/perfume-brand/sm.avif"
-					alt="Social media templates and brand application"
-				/>
-			</div>
 			<p>
 				The final delivery included a practical brand playbook with reusable templates for social,
 				ecommerce banners, and campaign layouts so the team can launch new collections faster
