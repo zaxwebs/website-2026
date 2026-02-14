@@ -79,8 +79,8 @@
 			</p>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/gold.avif"
-				alt="Moodboard and visual direction for fragrance branding"
+				src="/images/work/perfume-brand/desert.avif"
+				alt="Logo lockup variations and usage guidelines"
 			/>
 
 			<h3 class="text-2xl">Visual Identity</h3>
@@ -100,6 +100,11 @@
 					alt="Logo lockup variations and usage guidelines"
 				/>
 			</div>
+			<img
+				class="w-full rounded-md"
+				src="/images/work/perfume-brand/monogram.avif"
+				alt="Monogram design for the fragrance brand"
+			/>
 
 			<h3 class="text-2xl">Typography</h3>
 			<img
@@ -111,12 +116,12 @@
 			<h3 class="text-2xl">Color Palette</h3>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/primary-color.avif"
+				src="/images/work/perfume-brand/primary-colors.avif"
 				alt="Primary color palette for the brand identity"
 			/>
 			<img
 				class="w-full rounded-md"
-				src="/images/work/perfume-brand/secondary-color.avif"
+				src="/images/work/perfume-brand/secondary-colors.avif"
 				alt="Secondary color palette and accent tones"
 			/>
 
