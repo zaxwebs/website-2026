@@ -123,8 +123,8 @@
 				evoke permanence, ritual, and the weight of tradition. It brings a sense of ceremony to
 				product naming and brand signatures. Inter provides the counterpoint. Clean, highly legible,
 				and engineered for modern interfaces, it introduces ease and accessibility. Where Marcellus
-				is emotive, Inter is rational. This pairing allows the brand to feel culturally rooted yet
-				commercially fluent. Emotional in storytelling, precise in execution.
+				is emotive, Inter is rational. This balance ensures the brand feels anchored in heritage
+				while articulated with modern precision. Evocative in story, controlled in expression.
 			</p>
 			<img
 				class="w-full rounded-md"
