@@ -60,9 +60,14 @@
 			<div class="flex-1">
 				<h2 class="mb-8 text-2xl leading-[1.1] tracking-tight lg:text-4xl">Challenges</h2>
 				<p>
-					The previous identity varied from one channel to the next, and naming/visual treatments
-					competed for attention. The challenge was creating a system that felt elevated and ownable
-					in a crowded luxury category while remaining practical for the team to maintain.
+					Competing in the high end fragrance space demanded a presence that felt both rare and
+					credible. The brand had to embody the craftsmanship of oud while remaining agile enough to
+					evolve into new blends, formats, and collaborations.
+				</p>
+				<p>
+					The core challenge lay in building an identity anchored in the heritage of oud, while
+					articulating it through the visual and experiential language of contemporary Western
+					luxury.
 				</p>
 			</div>
 		</div>
@@ -111,6 +116,16 @@
 			/>
 
 			<h3 class="text-2xl">Typography</h3>
+			<p>
+				The typographic direction was built to mirror the olfactory structure of the fragrances
+				themselves. Deep, resinous oud balanced with refined Western notes. Marcellus was chosen for
+				its stately, archival character. Its Roman influenced proportions and carved serif detailing
+				evoke permanence, ritual, and the weight of tradition. It brings a sense of ceremony to
+				product naming and brand signatures. Inter provides the counterpoint. Clean, highly legible,
+				and engineered for modern interfaces, it introduces ease and accessibility. Where Marcellus
+				is emotive, Inter is rational. This pairing allows the brand to feel culturally rooted yet
+				commercially fluent. Emotional in storytelling, precise in execution.
+			</p>
 			<img
 				class="w-full rounded-md"
 				loading="lazy"
@@ -119,7 +134,14 @@
 			/>
 
 			<h3 class="text-2xl">Color Palette</h3>
-
+			<p>
+				Primary tones were selected to establish a foundation of richness, rarity, and material
+				depth. Royale Gold signals value and prestige, Smoked Oudwood anchors the identity in raw
+				authenticity, Silver Dynasty introduces a refined modern counterpoint, and Obsidian delivers
+				intensity, mystery and contrast. The secondary palette extends the story outward. Crimson
+				Reserve brings warmth and sensuality, Midnight Blue conveys sophistication, and Velour Green
+				references the natural origins of agarwood, adding an organic balance to the system.
+			</p>
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 				<img
 					class="w-full rounded-md"
