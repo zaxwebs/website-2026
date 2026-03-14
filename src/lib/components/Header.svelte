@@ -77,7 +77,7 @@
 			</a>
 
 			<!-- Desktop Navigation -->
-			<nav class="hidden items-center gap-6 md:flex" aria-label="Main navigation">
+			<nav class="hidden items-center gap-10 md:flex" aria-label="Main navigation">
 				{#each navLinks.slice(0, -1) as link}
 					<a
 						href={link.href}
