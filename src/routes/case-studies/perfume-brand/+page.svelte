@@ -47,24 +47,30 @@
 		<div class="mx-auto max-w-[900px] space-y-12">
 			<div class="flex-1">
 				<h2 class="mb-8 text-2xl leading-[1.1] tracking-tight lg:text-4xl">Overview</h2>
-				<p>
-					This project translated exceptional product quality into a unified brand presence across
-					packaging, social media, and retail touchpoints. The direction was rooted in modern
-					elegance with a strong editorial influence.
+				<p class="mb-3">
+					Oudessey is a fragrance brand built around thoughtful scent composition and craftsmanship.
+					Its perfumes are produced as Extrait de Parfum with a high fragrance concentration,
+					drawing inspiration from nature, art, and personal experiences.
 				</p>
-				<p>
-					The goal was to help the brand look as premium as it smelled, while preserving flexibility
-					for future collections, collaborations, and direct-to-consumer growth.
+				<p class="mb-3">
+					As the brand was being developed, they were seeking a cohesive identity that could reflect
+					the quality of the product. This project translated that vision into a unified brand
+					presence across packaging, social media, and retail touchpoints, with a direction rooted
+					in modern elegance and an editorial sensibility.
+				</p>
+				<p class="mb-3">
+					The aim was to establish a premium foundation while allowing flexibility for future
+					collections, collaborations, and direct to consumer growth.
 				</p>
 			</div>
 			<div class="flex-1">
 				<h2 class="mb-8 text-2xl leading-[1.1] tracking-tight lg:text-4xl">Challenges</h2>
-				<p>
+				<p class="mb-3">
 					Competing in the high end fragrance space demanded a presence that felt both rare and
 					credible. The brand had to embody the craftsmanship of oud while remaining agile enough to
 					evolve into new blends, formats, and collaborations.
 				</p>
-				<p>
+				<p class="mb-3">
 					The core challenge lay in building an identity anchored in the heritage of oud, while
 					articulating it through the visual and experiential language of contemporary Western
 					luxury.
@@ -77,7 +83,7 @@
 	<div class="p-4 py-28 pt-0">
 		<div class="mx-auto flex max-w-[1200px] flex-col gap-8">
 			<h2 class="text-2xl leading-[1.1] tracking-tight lg:text-4xl">Strategy & Execution</h2>
-			<p>
+			<p class="mb-3">
 				We began with positioning workshops to define audience segments, emotional keywords, and
 				category whitespace. These insights shaped a brand platform with messaging pillars applied
 				across product pages, launch campaigns, and in-store storytelling.
@@ -90,7 +96,7 @@
 			/>
 
 			<h3 class="text-2xl">Visual Identity</h3>
-			<p>
+			<p class="mb-3">
 				From there, we built a refined identity system across wordmark usage rules, typographic
 				hierarchy, color direction, and art direction principles.
 			</p>
@@ -116,7 +122,7 @@
 			/>
 
 			<h3 class="text-2xl">Typography</h3>
-			<p>
+			<p class="mb-3">
 				The typographic direction was built to mirror the olfactory structure of the fragrances
 				themselves. Deep, resinous oud balanced with refined Western notes. Marcellus was chosen for
 				its stately, archival character. Its Roman influenced proportions and carved serif detailing
@@ -134,7 +140,7 @@
 			/>
 
 			<h3 class="text-2xl">Color Palette</h3>
-			<p>
+			<p class="mb-3">
 				Primary tones were selected to establish a foundation of richness, rarity, and material
 				depth. Royale Gold signals value and prestige, Smoked Oudwood anchors the identity in raw
 				authenticity, Silver Dynasty introduces a refined modern counterpoint, and Obsidian delivers
@@ -158,7 +164,7 @@
 			</div>
 
 			<h3 class="text-2xl">Packaging Direction</h3>
-			<p>
+			<p class="mb-3">
 				Packaging concepts were developed to highlight individual scent personalities while
 				maintaining family consistency across the lineup.
 			</p>
@@ -170,7 +176,7 @@
 			/>
 
 			<h3 class="text-2xl">Rollout</h3>
-			<p>
+			<p class="mb-3">
 				The final delivery included a practical brand playbook with reusable templates for social,
 				ecommerce banners, and campaign layouts so the team can launch new collections faster
 				without compromising consistency.
@@ -184,7 +190,7 @@
 			<h2 class="mb-12 text-center text-2xl leading-[1.1] tracking-tight lg:text-4xl">
 				Impact & Outcome
 			</h2>
-			<p>
+			<p class="mb-3">
 				The brand is now live in the market with a cohesive premium identity, faster campaign
 				execution, and stronger product recognition across digital and retail channels.
 			</p>
