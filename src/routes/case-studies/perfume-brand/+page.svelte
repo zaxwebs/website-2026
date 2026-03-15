@@ -97,8 +97,10 @@
 
 			<h3 class="text-2xl">Visual Identity</h3>
 			<p class="mb-3">
-				From there, we built a refined identity system across wordmark usage rules, typographic
-				hierarchy, color direction, and art direction principles.
+				From there, we developed a refined identity system that established clear guidelines for
+				wordmark usage, typographic hierarchy, color direction, and art direction principles. This
+				system helps ensure consistency across all brand applications while providing a structured
+				framework for how the visual identity is expressed in different contexts.
 			</p>
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 				<img
@@ -114,12 +116,6 @@
 					alt="Logo lockup variations and usage guidelines"
 				/>
 			</div>
-			<img
-				class="w-full rounded-md"
-				loading="lazy"
-				src="/images/work/perfume-brand/bottle.avif"
-				alt="Perfume bottle design showcasing brand identity"
-			/>
 
 			<h3 class="text-2xl">Typography</h3>
 			<p class="mb-3">
@@ -165,14 +161,17 @@
 
 			<h3 class="text-2xl">Packaging Direction</h3>
 			<p class="mb-3">
-				Packaging concepts were developed to highlight individual scent personalities while
-				maintaining family consistency across the lineup.
+				The packaging was developed to align closely with the brand's identity, ensuring that its
+				design, colors, materials, and overall presentation reflect the brand's values and visual
+				language. Helping create a consistent and recognizable experience for consumers while
+				reinforcing the brand's positioning and message through its packaging.
 			</p>
+
 			<img
 				class="w-full rounded-md"
 				loading="lazy"
-				src="/images/work/perfume-brand/packaging.avif"
-				alt="Packaging design concepts for the fragrance collection"
+				src="/images/work/perfume-brand/bottle.avif"
+				alt="Perfume bottle design showcasing brand identity"
 			/>
 
 			<h3 class="text-2xl">Rollout</h3>
