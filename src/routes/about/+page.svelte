@@ -32,6 +32,7 @@
 		class="aspec-square mx-auto max-h-[620px] grayscale"
 		src="/images/zack-jacket-torso.avif"
 		alt="Zack Webster"
+		fetchpriority="high"
 	/>
 	<div
 		aria-hidden="true"
